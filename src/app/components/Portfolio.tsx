@@ -6,30 +6,33 @@ import { url } from "inspector";
 
 const ventures = [
   {
-    name: "XtreamDigital",
-    url: "https://xtreamdigital.com/",
-    desc: `A full scale marketing and content powerhouse designed for brands ready to scale beyond limits. 
-    We specialize in high impact strategies and visual storytelling that cuts through the noise`,
-    logo: "https://res.cloudinary.com/dpjmcup95/image/upload/v1771043442/c0fae2284d58e900c3ec03c3e2f0fe0f51fa249d_z5zfor.png",
-  },
-  {
     name: "Digital Escapes",
     url: "https://www.thedigitalescapes.com/",
     desc: "A niche agency dedicated exclusively to the hospitality sectorWe transform how hotels and villas connect with guests by driving direct bookings and building premium brand identities",
     logo: "https://res.cloudinary.com/dpjmcup95/image/upload/v1771044812/ce64ec787eb46eceada1d3e71ad875061e2258d9_oovf64.webp",
   },
   {
-    name: "Sri Lanka Hotel Magazine",
-    url: "https://www.srilankahotelmagazine.com/",
-    desc: "The premier digital publication giving a voice to the Sri Lankan hospitality industry. We showcase the best of the island to a global audience while connecting industry leaders",
-    logo: "https://res.cloudinary.com/dpjmcup95/image/upload/v1771045044/63d7b1a1b97852e6d21d90e037fdb5f677e0eeec_zu5gf4.webp",
+    name: "XtreamDigital",
+    url: "https://xtreamdigital.com/",
+    desc: `A full scale marketing and content powerhouse designed for brands ready to scale beyond limits. 
+    We specialize in high impact strategies and visual storytelling that cuts through the noise`,
+    logo: "https://res.cloudinary.com/dpjmcup95/image/upload/v1771043442/c0fae2284d58e900c3ec03c3e2f0fe0f51fa249d_z5zfor.png",
   },
-  {
+
+    {
     name: "Markt My Keys",
     url: "https://www.marketmykeys.com/",
     desc: "Revolutionizing real estate marketing through cinematic content creation and digital listing strategy. We move beyond static images to tell the story of a property",
     logo: "https://res.cloudinary.com/dpjmcup95/image/upload/v1771045817/c66394c9216d6e88f01efafa8892a7bc0e9fb54c_rpak65.webp",
   },
+
+  {
+    name: "Sri Lanka Hotel Magazine",
+    url: "https://www.srilankahotelmagazine.com/",
+    desc: "The premier digital publication giving a voice to the Sri Lankan hospitality industry. We showcase the best of the island to a global audience while connecting industry leaders",
+    logo: "https://res.cloudinary.com/dpjmcup95/image/upload/v1771045044/63d7b1a1b97852e6d21d90e037fdb5f677e0eeec_zu5gf4.webp",
+  },
+
   {
     name: "Travel My Sri Lanka",
     url: "https://travelmysrilanka.com/",
