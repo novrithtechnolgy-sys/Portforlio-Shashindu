@@ -46,7 +46,7 @@ export default function Profile() {
                 <p>
                     As the founder of Digital Escapes, XtreamDigital, Market My Keys, Travel My Sri  Lanka, 
                     and Sri Lanka Hotel Magazine, he blends academic excellence with  strategic storytelling to elevate Sri Lankan brands. 
-                    He also leads Zinkq, a growing  community dedicated to empowering entrepreneurs and fostering forward thinking business culture.”
+                    He also leads Zinkq, a growing  community dedicated to empowering entrepreneurs and fostering forward thinking business culture.
                 </p>
               </div>
             </div>

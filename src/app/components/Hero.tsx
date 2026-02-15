@@ -79,7 +79,7 @@ export default function Hero() {
 
 
             <a
-              href="#playback"
+              href="https://www.startupuncut.com/"
               className="inline-flex items-center justify-center w-[280px] rounded-full px-7 py-[14px]
               text-[15px] font-semibold text-[#B9A7FF]
               border border-[#3A2BFF]/40 bg-black/30 hover:bg-white/5"
