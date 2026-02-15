@@ -60,13 +60,13 @@ export default function Portfolio() {
         <div className="mt-20 grid gap-5">
           {ventures.map((v) => (
             <Card key={v.name}>
-              <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6 px-16">
-                <div>
+              <div className="flex flex-col md:flex-row items-center md:justify-between justify-center gap-6 px-4 md:px-16 py-4 lg:py-16 xl:py-0">
+                <div className="order-2 md:order-1 text-center md:text-left">
                   <div className="font-[timesTen] md:text-[48px] font-semibold">{v.name}</div>
                   <p className="mt-2 font-[helvetica] md:text-[20px] text-white/70 max-w-2xl">{v.desc}</p>
                 </div>
 
-                <div className="relative h-80 w-120 shrink-0 opacity-90 ">
+                <div className="relative h-35 w-40  md::h-60 sm:w-60 lg:w-80 xl:h-80 xl:w-120 shrink-0 opacity-90 order-1 md:order-2">
                   <Image 
                   src={v.logo} 
                   alt={`${v.name} logo`} 

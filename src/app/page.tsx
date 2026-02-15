@@ -15,8 +15,8 @@ export default function HomePage() {
       <Navbar />
       <Hero />
       <Profile />
-      {/* <Portfolio /> */}
-      {/* <Advisory/> */}
+      <Portfolio />
+      <Advisory/>
       {/* <Philosophy /> */}
       {/* <DigitalPlayback /> */}
       {/* <LegacyCTA/> */}

@@ -17,11 +17,11 @@ export default function Advisory() {
         </div>
 
         {/* Content */}
-        <div className="mt-14 grid items-center gap-14 md:grid-cols-2">
+        <div className="mt-14 grid items-center  gap-14 md:grid-cols-2">
           {/* LEFT: Rotated image cards */}
-          <div className="relative mx-auto h-[340px] w-full max-w-[520px] md:h-[420px]">
+          <div className=" flex md:block mx-auto h-[340px] w-full md:max-w-[520px] md:h-[420px] justify-center sm:px-30 md:px-0">
             {/* back card */}
-            <div className="absolute left-6 top-8 h-[260px] w-[260px] md:h-[360px] md:w-[300px] rotate-[-10deg] rounded-[28px] overflow-hidden border border-white/10 bg-white/5 shadow-[0_40px_120px_rgba(0,0,0,0.75)]">
+            <div className="relative left-8 md:left-6 top-8 h-[260px] w-full md:h-[280px] md:w-[240px] lg:h-[320px] lg:w-[260px] xl:h-[360px] xl:w-[300px] rotate-[-10deg] rounded-[28px] overflow-hidden border border-white/10 bg-white/5 shadow-[0_40px_120px_rgba(0,0,0,0.75)]">
               <Image
                 src="https://res.cloudinary.com/dpjmcup95/image/upload/v1771048907/783d4e35a4a514f11e04c25fe352c064c29b90b6_zya82e.webp"
                 alt="Advisory image 1"
@@ -32,7 +32,7 @@ export default function Advisory() {
             </div>
 
             {/* front card */}
-            <div className="absolute left-28 top-16 h-[290px] w-[290px] md:h-[360px] md:w-[330px] rotate-[8deg] rounded-[32px] overflow-hidden border border-white/10 bg-white/5 shadow-[0_50px_150px_rgba(0,0,0,0.85)]">
+            <div className="relative -left-10 md:left-28 -bottom-10 md:bottom-55 lg:bottom-60 xl:bottom-70 h-[260px] w-full md:h-[280px] md:w-[240px] lg:h-[320px] lg:w-[260px] xl:h-[360px] xl:w-[330px] rotate-[8deg] rounded-[32px] overflow-hidden border border-white/10 bg-white/5 shadow-[0_50px_150px_rgba(0,0,0,0.85)]">
               <Image
                 src="https://res.cloudinary.com/dpjmcup95/image/upload/v1771048906/333944d0cb9defa1189a1ff14708c3106a648f90_wglqcu.webp"
                 alt="Advisory image 2"
