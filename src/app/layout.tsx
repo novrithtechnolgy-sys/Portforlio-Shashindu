@@ -1,10 +1,34 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Playfair_Display } from "next/font/google";
 import "./globals.css";
+import localFont from "next/font/local";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
+});
+
+const timesTen = localFont({
+  src: [
+    {
+      path: "../../public/font/TimesTen.ttf",
+      weight: "400",
+      style: "normal",
+    },
+  ],
+  variable: "--font-times-ten",
+});
+
+const helvetica = localFont({
+  src: [
+    {
+      path: "../../public/font/Helvetica.ttf",
+      weight: "400",
+      style: "normal",
+    },
+  ],
+  variable: "--font-helvetica",
+  display: "swap",
 });
 
 const geistMono = Geist_Mono({
@@ -25,10 +49,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${timesTen.variable} ${helvetica.variable} antialiased`}
       >
         {children}
       </body>
     </html>
   );
 }
+
+
