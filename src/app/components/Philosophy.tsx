@@ -25,19 +25,37 @@ function wrap(i: number, len: number) {
   return (i % len + len) % len;
 }
 
-function StoryCard({ image }: { image: string }) {
+function StoryCard({
+  image,
+  className = "",
+  priority = false,
+}: {
+  image: string;
+  className?: string;
+  priority?: boolean;
+}) {
   return (
-    <div className="relative overflow-hidden rounded-[34px] border border-white/10 bg-white/5 shadow-[0_40px_140px_rgba(0,0,0,0.85)] h-[520px] w-[320px] sm:w-[360px]">
+    <div
+      className={[
+        "relative overflow-hidden rounded-[34px] border border-white/10 bg-white/5",
+        "shadow-[0_40px_140px_rgba(0,0,0,0.85)]",
+        className,
+      ].join(" ")}
+    >
       <Image
         src={image}
         alt="Story"
         fill
         className="object-cover"
-        sizes="(max-width: 640px) 360px, 360px"
-        priority
+        sizes="(max-width: 768px) 320px, 420px"
+        priority={priority}
       />
+
+      {/* overlays */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_35%,rgba(255,255,255,0.12),rgba(0,0,0,0)_55%)]" />
       <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-black/70 to-transparent" />
+
+      {/* right side dots */}
       <div className="absolute bottom-8 right-5 flex flex-col gap-2">
         <span className="h-2 w-2 rounded-full bg-white/70" />
         <span className="h-2 w-2 rounded-full bg-white/40" />
@@ -50,7 +68,7 @@ function StoryCard({ image }: { image: string }) {
 export default function Philosophy() {
   const [active, setActive] = useState(0);
 
-  // ✅ auto change every 3.5s (mobile only visible)
+  // auto change every 3.5s
   useEffect(() => {
     const t = setInterval(() => {
       setActive((a) => wrap(a + 1, stories.length));
@@ -70,7 +88,7 @@ export default function Philosophy() {
     const endX = e.changedTouches[0]?.clientX ?? touchStart;
     const diff = touchStart - endX;
 
-    if (Math.abs(diff) > 40) {
+    if (Math.abs(diff) > 25) {
       // swipe left -> next, swipe right -> prev
       setActive((a) => wrap(a + (diff > 0 ? 1 : -1), stories.length));
     }
@@ -93,36 +111,68 @@ export default function Philosophy() {
           </p>
         </div>
 
-        {/* ✅ DESKTOP (static 3 cards) */}
+        {/* DESKTOP (static 3 cards like design) */}
         <div className="mt-14 hidden md:flex items-end justify-center gap-10">
-          <div className="relative overflow-hidden rounded-[34px] border border-white/10 bg-white/5 shadow-[0_40px_140px_rgba(0,0,0,0.85)] h-[520px] w-[340px] opacity-85">
-            <Image src={desktopCards[0].image} alt="Story" fill className="object-cover" />
-          </div>
-
-          <div className="relative overflow-hidden rounded-[34px] border border-white/10 bg-white/5 shadow-[0_40px_140px_rgba(0,0,0,0.85)] h-[560px] w-[380px]">
-            <Image src={desktopCards[1].image} alt="Story" fill className="object-cover" />
-          </div>
-
-          <div className="relative overflow-hidden rounded-[34px] border border-white/10 bg-white/5 shadow-[0_40px_140px_rgba(0,0,0,0.85)] h-[520px] w-[340px] opacity-85">
-            <Image src={desktopCards[2].image} alt="Story" fill className="object-cover" />
-          </div>
+          <StoryCard
+            image={desktopCards[0].image}
+            className="h-[520px] w-[362px] opacity-85"
+          />
+          <StoryCard
+            image={desktopCards[1].image}
+            className="h-[560px] w-[420px]"
+            priority
+          />
+          <StoryCard
+            image={desktopCards[2].image}
+            className="h-[520px] w-[362px] opacity-85"
+          />
         </div>
 
-        {/* ✅ MOBILE (auto slider + swipe) */}
+        {/* MOBILE (peek carousel like screenshot) */}
         <div
-          className="mt-10 md:hidden flex flex-col items-center gap-5"
+          className="mt-10 md:hidden relative h-[560px] overflow-hidden"
           onTouchStart={onTouchStart}
           onTouchEnd={onTouchEnd}
         >
-          <StoryCard image={stories[active].image} />
+          <div className="absolute inset-0 flex items-center justify-center">
+            {[-1, 0, 1].map((offset) => {
+              const idx = wrap(active + offset, stories.length);
+              const isCenter = offset === 0;
+
+              // spacing + style to match screenshot
+              const x = offset * 210; // make 190 if you want more side visibility
+              const scale = isCenter ? 1 : 0.88;
+              const opacity = isCenter ? 1 : 0.45;
+              const z = isCenter ? 20 : 10;
+
+              return (
+                <div
+                  key={`${stories[idx].id}-${offset}`}
+                  className="absolute"
+                  style={{
+                    transform: `translateX(${x}px) scale(${scale})`,
+                    opacity,
+                    zIndex: z,
+                    transition: "transform 450ms ease, opacity 450ms ease",
+                  }}
+                >
+                  <StoryCard
+                    image={stories[idx].image}
+                    className={isCenter ? "h-[520px] w-[320px]" : "h-[500px] w-[300px]"}
+                    priority={isCenter}
+                  />
+                </div>
+              );
+            })}
+          </div>
 
           {/* dots indicator */}
-          <div className="flex items-center gap-2">
+          <div className="absolute bottom-0 left-1/2 -translate-x-1/2 flex items-center gap-2">
             {stories.map((s, i) => (
               <span
                 key={s.id}
                 className={`h-2 w-2 rounded-full transition ${
-                  i === active ? "bg-white/80" : "bg-white/30"
+                  i === active ? "bg-white/80" : "bg-white/25"
                 }`}
               />
             ))}
