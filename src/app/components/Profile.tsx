@@ -31,7 +31,7 @@ export default function Profile() {
                 <span className="font-semibold">Profile</span>
               </h2>
 
-              <div className="mt-8 space-y-4 font-[helvetica]  font-bold xl:font-normal text-[14px] xl:text-[20px] leading-8 text-white/70 max-w-3xl mx-auto md:mx-0 ">
+              <div className="mt-6 space-y-4 font-[helvetica] font-bold xl:font-normal text-[14px] xl:text-[20px] leading-8 text-white/70 max-w-3xl mx-auto md:mx-0 ">
                 <p>
                     Shashindu De Silva is a 24-year-old strategic entrepreneur and a First Class  Honours graduate in BA (Hons) Business Management from Coventry University,  UK. His business acumen was shaped early,
                     having taken over family operations at  the age of 19, gaining hands-on commercial experience through Scenery Villas (Pvt)  Ltd

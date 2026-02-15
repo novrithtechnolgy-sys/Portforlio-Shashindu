@@ -46,7 +46,7 @@ export default function Portfolio() {
                 <span className="font-normal italic">A Portfolio of Innovation and </span>
                 <span className="font-bold">Leadership</span>
             </h1>
-            <p className="mt-4 md:mt-8 xl:mt-10 font-[helvetica] text-[14px] xl:text-[20px] text-white/70 max-w-3xl mx-auto">From founding digital ecosystems to managing established heritage brands </p>
+            <p className="mt-4 md:mt-8 xl:mt-6 font-[helvetica] text-[14px] xl:text-[20px] text-white/70 max-w-3xl mx-auto">From founding digital ecosystems to managing established heritage brands </p>
         </div>
 
         <div className="text-center">
@@ -54,13 +54,13 @@ export default function Portfolio() {
                 <span className="font-normal italic">Ventures </span>
                 <span className="font-bold">Founded</span>
             </h1>
-            <p className="mt-4  font-[helvetica] text-[14px] xl:text-[20px] text-white/70 max-w-3xl mx-auto">The companies built from the ground up</p>
+            <p className="mt-4 font-[helvetica] text-[14px] xl:text-[20px] text-white/70 max-w-3xl mx-auto">The companies built from the ground up</p>
         </div>
 
-        <div className="mt-20 grid gap-5">
+        <div className="mt-10 md:mt-12 grid gap-5">
           {ventures.map((v) => (
             <Card key={v.name}>
-              <div className="flex flex-col md:flex-row items-center md:justify-between justify-center gap-6 px-4 md:px-16 py-4 lg:py-16 xl:py-0">
+              <div className="flex flex-col md:flex-row items-center md:justify-between justify-center gap-6 px-4 md:px-16 py-4 lg:py-16 xl:py-0 hover:scale-105 transition">
                 <div className="order-2 md:order-1 text-center md:text-left">
                   <div className="font-[timesTen] md:text-[38px] xl:text-[48px] font-semibold">{v.name}</div>
                   <p className="mt-2 font-[helvetica] text-[14px]  xl:text-[20px] text-white/70 max-w-2xl">{v.desc}</p>
