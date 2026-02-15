@@ -43,7 +43,7 @@ export default function Advisory() {
             </div>
 
             {/* soft fade */}
-            <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_40%_40%,rgba(255,255,255,0.10),rgba(0,0,0,0)_60%)]" />
+            {/* <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_40%_40%,rgba(255,255,255,0.10),rgba(0,0,0,0)_60%)]" /> */}
           </div>
 
           {/* RIGHT: Text */}
