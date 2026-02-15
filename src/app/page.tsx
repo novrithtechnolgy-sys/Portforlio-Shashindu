@@ -18,7 +18,7 @@ export default function HomePage() {
       <Portfolio />
       <Advisory/>
       <Philosophy />
-      {/* <DigitalPlayback /> */}
+      <DigitalPlayback />
       {/* <LegacyCTA/> */}
       {/* <Footer /> */}
     </main>

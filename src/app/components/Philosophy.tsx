@@ -37,7 +37,7 @@ function StoryCard({
   return (
     <div
       className={[
-        "relative overflow-hidden rounded-[34px] border border-white/10 bg-white/5",
+        "relative overflow-hidden rounded-[34px]  bg-white/5",
         "shadow-[0_40px_140px_rgba(0,0,0,0.85)]",
         className,
       ].join(" ")}
