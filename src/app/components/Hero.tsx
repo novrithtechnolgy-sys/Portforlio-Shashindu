@@ -1,5 +1,10 @@
+"use client";
+
 import Image from "next/image";
 import Container from "./ui/Container";
+import { motion } from "framer-motion";
+import { HiArrowDown } from "react-icons/hi";
+import { FaAngleDoubleDown, FaArrowDown } from "react-icons/fa";
 
 export default function Hero() {
   return (
@@ -49,15 +54,21 @@ export default function Hero() {
 
           <div className="mt-8 flex flex-col sm:flex-row sm:justify-center items-center gap-4">
             <a
-              href="#portfolio"
-              className="inline-flex items-center justify-center gap-2 w-[280px] rounded-full px-7 py-[14px]
-              text-[15px] font-semibold text-white
-              bg-gradient-to-b from-[#3A2BFF] to-[#1B0E86]
-              shadow-[0_18px_60px_rgba(58,43,255,0.35)]
-              hover:opacity-95"
+            href="#portfolio"
+            className="inline-flex items-center justify-center gap-3 w-[280px] rounded-full px-7 py-[14px]
+            text-[15px] font-semibold text-white
+            bg-gradient-to-b from-[#3A2BFF] to-[#1B0E86]
+            shadow-[0_18px_60px_rgba(58,43,255,0.35)]
+            hover:opacity-95"
             >
-              Explore the Portfolio <span className="text-white/80">⌄</span>
+            Explore the Portfolio
+
+            {/* animated arrow */}
+            <span className="animate-arrow text-white/80 text-lg">
+                ⌄
+            </span>
             </a>
+
 
             <a
               href="#playback"
@@ -72,7 +83,7 @@ export default function Hero() {
 
         {/* ✅ DESKTOP ONLY (YOUR CODE UNCHANGED) */}
         <div className="hidden md:block">
-          <div className="relative mt-16 h-[600px] lg:h-[700px] xl:h-[800px]">
+          <div className="relative mt-16 h-[600px] lg:h-[700px] xl:h-[850px]">
             <div className="relative z-10 mx-auto text-center ">
               <h1 className="text-5xl font-[timesTen] text-[64px] xl:text-[90px] leading-[1.05] text-white">
                 <span className="font-regular xl:text-[90px]">Building Value.</span>
@@ -81,7 +92,7 @@ export default function Hero() {
               </h1>
             <div/>
 
-            <div className="relative flex justify-between z-10 mx-auto w-full text-center">
+            <div className="relative flex justify-between z-10 mx-auto w-full mt-3 text-center ">
               <div className="w-full ">
                 <div className="absolute right-3/5 top-10 lg:top-20 mx-auto z-10">
                   <p className="mx-auto font-[helvetica] md:text-[14px] xl:text-[20px] font-bold leading-7 text-white/65">
@@ -93,14 +104,26 @@ export default function Hero() {
 
                   <div className="mt-10 flex flex-wrap items-center justify-center gap-6">
                     <a
-                      href="#portfolio"
-                      className="inline-flex items-center gap-2 rounded-full px-7 py-3 text-sm font-semibold text-white
-                      bg-gradient-to-b from-[#3A2BFF] to-[#1B0E86]
-                      shadow-[0_18px_60px_rgba(58,43,255,0.35)]
-                      hover:opacity-95"
+                    href="#portfolio"
+                    className="inline-flex items-center gap-3 rounded-full px-7 py-3 text-sm font-semibold text-white
+                    bg-gradient-to-b from-[#3A2BFF] to-[#1B0E86]
+                    shadow-[0_18px_60px_rgba(58,43,255,0.35)]
+                    hover:opacity-95"
                     >
-                      Explore the Portfolio
-                      <span className="text-white/80">⌄</span>
+                    Explore the Portfolio
+
+                    {/* animated icon */}
+                    <motion.span
+                        animate={{ y: [0, 8, 0] }}
+                        transition={{
+                        duration: 1.2,
+                        repeat: Infinity,
+                        ease: "easeInOut",
+                        }}
+                        className="text-white/90"
+                    >
+                        <FaAngleDoubleDown size={18} />
+                    </motion.span>
                     </a>
 
                     <a

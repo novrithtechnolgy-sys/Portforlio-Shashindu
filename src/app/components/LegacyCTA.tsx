@@ -1,5 +1,8 @@
+"use client";
 import Image from "next/image";
 import Container from "./ui/Container";
+import { motion } from "framer-motion";
+import { FaAngleDoubleDown } from "react-icons/fa";
 
 export default function LegacyCTA() {
   return (
@@ -74,12 +77,22 @@ export default function LegacyCTA() {
                 "
               >
                 Start the Conversation{" "}
-                <span className="text-white/80 text-lg leading-none">⌄</span>
+                <motion.span
+                    animate={{ y: [0, 8, 0] }}
+                    transition={{
+                    duration: 1.2,
+                    repeat: Infinity,
+                    ease: "easeInOut",
+                    }}
+                    className="text-white/90"
+                >
+                    <FaAngleDoubleDown size={18} />
+                </motion.span>
               </a>
 
               {/* Secondary */}
               <a
-                href="#"
+                href="https://www.zinkq.com/"
                 className="
                   inline-flex items-center justify-center
                   w-[280px] md:w-auto
