@@ -64,9 +64,17 @@ export default function Hero() {
             Explore the Portfolio
 
             {/* animated arrow */}
-            <span className="animate-arrow text-white/80 text-lg">
-                ⌄
-            </span>
+                    <motion.span
+                        animate={{ y: [0, 8, 0] }}
+                        transition={{
+                        duration: 1.2,
+                        repeat: Infinity,
+                        ease: "easeInOut",
+                        }}
+                        className="text-white/90"
+                    >
+                        <FaAngleDoubleDown size={18} />
+                    </motion.span>
             </a>
 
 
