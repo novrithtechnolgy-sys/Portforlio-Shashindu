@@ -72,9 +72,9 @@ export default function Hero() {
 
         {/* ✅ DESKTOP ONLY (YOUR CODE UNCHANGED) */}
         <div className="hidden md:block">
-          <div className="relative mt-16 h-[800px]">
+          <div className="relative mt-16 h-[600px] lg:h-[700px] xl:h-[800px]">
             <div className="relative z-10 mx-auto text-center ">
-              <h1 className="text-5xl font-[timesTen] md:text-7xl leading-[1.05] text-white">
+              <h1 className="text-5xl font-[timesTen] text-[64px] xl:text-[90px] leading-[1.05] text-white">
                 <span className="font-regular xl:text-[90px]">Building Value.</span>
                 <br />
                 <span className="font-bold xl:text-[96px]">Defying Expectations.</span>

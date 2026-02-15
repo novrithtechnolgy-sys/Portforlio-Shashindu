@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className="bg-black pt-20 pb-10">
       <Container>
-        <div className="grid gap-14 md:grid-cols-[1.3fr_1fr_1fr_1fr]">
+        <div className="grid gap-14 sm:grid-cols-[1.3fr_1fr] lg:grid-cols-[1.3fr_1fr_1fr_1fr]">
           {/* LEFT: Brand */}
           <div>
             <div className="flex items-start gap-5">

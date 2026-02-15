@@ -41,20 +41,20 @@ export default function Portfolio() {
   return (
     <section id="portfolio" className="">
       <Container>
-        <div className="text-center py-44">
-            <h1 className="font-[timesTen] md:text-[80px] max-w-5xl mx-auto font-semibold leading-tight">
+        <div className="text-center py-24 md:py-34 xl:py-44">
+            <h1 className="font-[timesTen] text-[34px] md:text-[64px] xl:text-[80px] max-w-5xl mx-auto font-semibold leading-tight">
                 <span className="font-normal italic">A Portfolio of Innovation and </span>
                 <span className="font-bold">Leadership</span>
             </h1>
-            <p className="mt-10 font-[helvetica] md:text-[20px] text-white/70 max-w-3xl mx-auto">From founding digital ecosystems to managing established heritage brands </p>
+            <p className="mt-4 md:mt-8 xl:mt-10 font-[helvetica] text-[14px] xl:text-[20px] text-white/70 max-w-3xl mx-auto">From founding digital ecosystems to managing established heritage brands </p>
         </div>
 
         <div className="text-center">
-            <h1 className="font-[timesTen] md:text-[48px] max-w-5xl mx-auto font-semibold leading-tight">
+            <h1 className="font-[timesTen] text-[28px] md:text-[38px] xl:text-[48px] max-w-5xl mx-auto font-semibold leading-tight">
                 <span className="font-normal italic">Ventures </span>
                 <span className="font-bold">Founded</span>
             </h1>
-            <p className="mt-4  font-[helvetica] md:text-[20px] text-white/70 max-w-3xl mx-auto">The companies built from the ground up</p>
+            <p className="mt-4  font-[helvetica] text-[14px] xl:text-[20px] text-white/70 max-w-3xl mx-auto">The companies built from the ground up</p>
         </div>
 
         <div className="mt-20 grid gap-5">
@@ -62,8 +62,8 @@ export default function Portfolio() {
             <Card key={v.name}>
               <div className="flex flex-col md:flex-row items-center md:justify-between justify-center gap-6 px-4 md:px-16 py-4 lg:py-16 xl:py-0">
                 <div className="order-2 md:order-1 text-center md:text-left">
-                  <div className="font-[timesTen] md:text-[48px] font-semibold">{v.name}</div>
-                  <p className="mt-2 font-[helvetica] md:text-[20px] text-white/70 max-w-2xl">{v.desc}</p>
+                  <div className="font-[timesTen] md:text-[38px] xl:text-[48px] font-semibold">{v.name}</div>
+                  <p className="mt-2 font-[helvetica] text-[14px]  xl:text-[20px] text-white/70 max-w-2xl">{v.desc}</p>
                 </div>
 
                 <div className="relative h-35 w-40  md::h-60 sm:w-60 lg:w-80 xl:h-80 xl:w-120 shrink-0 opacity-90 order-1 md:order-2">

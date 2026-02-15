@@ -26,7 +26,7 @@ export default function Profile() {
             </div>
 
             <div className="text-center md:text-left px-4 py-12 md:pl-12 md:pr-12 order-1 md:order-2">
-              <h2 className="font-[timesTen] text-[34px] md:text-[80px] leading-[1.05]">
+              <h2 className="font-[timesTen] text-[34px] md:text-[64px] xl:text-[80px] leading-[1.05]">
                 <span className="italic font-medium text-white/90">The </span>
                 <span className="font-semibold">Profile</span>
               </h2>

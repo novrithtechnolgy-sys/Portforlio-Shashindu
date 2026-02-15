@@ -7,7 +7,7 @@ export default function Advisory() {
       <Container>
         {/* Heading */}
         <div className="text-center">
-          <h2 className="font-[timesTen] md:text-[48px] leading-tight">
+          <h2 className="font-[timesTen] text-[28px] md:text-[38px] xl:text-[48px] leading-tight">
             <span className="italic font-medium text-white/90">Management and </span>
             <span className="font-bold text-white">Advisory</span>
           </h2>
@@ -48,7 +48,7 @@ export default function Advisory() {
 
           {/* RIGHT: Text */}
           <div className="text-center md:text-left">
-            <h3 className="font-[timesTen] md:text-[48px] font-medium text-white">
+            <h3 className="font-[timesTen] text-[28px] md:text-[38px] xl:text-[48px] font-medium text-white">
               Scenery Villas Pvt Ltd
             </h3>
 

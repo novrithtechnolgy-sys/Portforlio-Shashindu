@@ -102,7 +102,7 @@ export default function Philosophy() {
       <Container>
         {/* Title */}
         <div className="text-center">
-          <h2 className="font-[timesTen] text-[44px] sm:text-[56px] md:text-[80px] leading-[1.05]">
+          <h2 className="font-[timesTen] text-[34px] md:text-[64px] xl:text-[80px] leading-[1.05]">
             <span className="italic font-medium text-white/90">The </span>
             <span className="font-semibold text-white">Philosophy</span>
           </h2>
