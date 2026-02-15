@@ -11,13 +11,15 @@ export default function LegacyCTA() {
         <div className="relative overflow-hidden rounded-[34px] bg-white/5 shadow-[0_50px_160px_rgba(0,0,0,0.85)]">
           {/* Background image */}
           <div className="absolute inset-0">
+            <div className="relative h-[200px] md:h-full w-full rounded-[34px]">
             <Image
               src="https://res.cloudinary.com/dpjmcup95/image/upload/v1771086431/7e2eafc7fbfb8122b8416ab755b4d0bb8a1547491_io1upf.jpg"
               alt="CTA background"
               fill
               priority
-              className="object-cover object-top"
+              className="object-cover object-top "
             />
+            </div>
 
             {/* dark overlays like screenshot */}
             <div className="absolute inset-0 bg-black/55" />
