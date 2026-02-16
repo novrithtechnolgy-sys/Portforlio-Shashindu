@@ -103,7 +103,7 @@ export default function DigitalPlayback() {
       <div className="mx-auto max-w-6xl px-4">
         {/* Title */}
         <div className="text-center">
-          <h2 className="font-[timesTen] leading-[1.05] text-[44px] sm:text-[56px] md:text-[80px]">
+          <h2 className="font-[timesTen] leading-[1.05] text-[34px] md:text-[64px]">
             <span className="italic font-medium text-white/90">The </span>
             <span className="font-bold text-white">Digital Playback</span>
           </h2>
@@ -232,7 +232,7 @@ export default function DigitalPlayback() {
                       />
                     )}
 
-                    <div className="pointer-events-none absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-black/60 to-transparent" />
+                    {/* <div className="pointer-events-none absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-black/60 to-transparent" /> */}
                   </div>
                 </div>
               );

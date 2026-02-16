@@ -11,9 +11,9 @@ export default function Hero() {
     <section className="relative overflow-hidden bg-black">
       {/* Background (same) */}
       <div className="pointer-events-none absolute inset-0">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_35%,rgba(255,255,255,0.10),rgba(0,0,0,0)_55%)] z-20" />
-        <div className="absolute inset-0 bg-gradient-to-b from-black via-black/60 to-black" />
-        <div className="absolute inset-y-0 right-0 w-[45%] bg-gradient-to-l from-black via-black/60 to-transparent" />
+        {/* <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_35%,rgba(255,255,255,0.10),rgba(0,0,0,0)_55%)] z-20" /> */}
+        {/* <div className="absolute inset-0 bg-gradient-to-b from-black via-black/60 to-black" /> */}
+        {/* <div className="absolute inset-y-0 right-0 w-[45%] bg-gradient-to-l from-black via-black/60 to-transparent" /> */}
       </div>
 
       <Container>
@@ -91,7 +91,7 @@ export default function Hero() {
           <div className="relative mt-16 h-[600px] lg:h-[700px] xl:h-[850px]">
             <div className="relative z-10 mx-auto text-center ">
               <h1 className="text-5xl font-[timesTen] text-[64px] xl:text-[90px] leading-[1.05] text-white">
-                <span className="font-regular xl:text-[90px]">Building Value.</span>
+                <span className="font-regular xl:text-[90px] italic">Building Value.</span>
                 <br />
                 <span className="font-bold xl:text-[96px]">Defying Expectations.</span>
               </h1>
@@ -149,8 +149,8 @@ export default function Hero() {
                   className="object-contain object-right"
                 />
 
-                <div className="absolute inset-y-0 top-50 left-0 w-[55%] h-[630px] bg-gradient-to-r from-black via-black/80 to-transparent" />
-                <div className="absolute inset-x-0 bottom-5 h-28 bg-gradient-to-t from-black to-transparent" />
+                <div className="hidden md:block absolute inset-y-0 top-50 left-0 w-[55%] h-[630px] bg-gradient-to-r from-black via-black/70  to-transparent" />
+                <div className="hidden md:block absolute inset-x-0 bottom-5 h-28 bg-gradient-to-t from-black to-transparent" />
               </div>
             </div>
             </div>

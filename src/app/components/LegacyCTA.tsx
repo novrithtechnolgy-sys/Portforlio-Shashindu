@@ -37,21 +37,21 @@ const handleEmail = () => {
 
             {/* dark overlays like screenshot */}
             <div className="absolute inset-0 bg-black/55" />
-            <div className="absolute inset-0 bg-gradient-to-b from-black/0 via-black/15 to-black/90" />
-            <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/25 to-black/60" />
-            <div className="absolute inset-0 bg-[radial-gradient(circle_at_45%_30%,rgba(255,255,255,0.10),rgba(0,0,0,0)_60%)]" />
+            {/* <div className="absolute inset-0 bg-gradient-to-b from-black/0 via-black/15 to-black/90" /> */}
+            {/* <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/25 to-black/60" /> */}
+            {/* <div className="absolute inset-0 bg-[radial-gradient(circle_at_45%_30%,rgba(255,255,255,0.10),rgba(0,0,0,0)_60%)]" /> */}
           </div>
 
           {/* Content */}
           <div className="relative px-5 pt-44 pb-14 md:px-16 md:pt-24 md:pb-24 text-center">
             {/* Title */}
             <h3 className="font-[timesTen] text-white leading-[1.02]">
-              <span className="italic font-light text-[42px] sm:text-[52px] md:text-[80px]">
+              <span className="italic font-light text-[34px] md:text-[64px]">
                 Ready to{" "}
               </span>
 
               <span
-                className="italic font-light text-[42px] sm:text-[52px] md:text-[80px]"
+                className="italic font-light text-[34px] md:text-[64px]"
                 style={{
                   WebkitTextStroke: "1.5px white",
                   WebkitTextFillColor: "transparent",
@@ -61,7 +61,7 @@ const handleEmail = () => {
                 Define
               </span>
 
-              <span className="font-semibold text-[42px] sm:text-[52px] md:text-[80px]">
+              <span className="font-semibold text-[34px] md:text-[64px]">
                 {" "}
                 Your Legacy
               </span>

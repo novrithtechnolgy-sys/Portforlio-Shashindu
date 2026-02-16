@@ -52,8 +52,8 @@ function StoryCard({
       />
 
       {/* overlays */}
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_35%,rgba(255,255,255,0.12),rgba(0,0,0,0)_55%)]" />
-      <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-black/70 to-transparent" />
+      {/* <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_35%,rgba(255,255,255,0.12),rgba(0,0,0,0)_55%)]" /> */}
+      {/* <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-black/70 to-transparent" /> */}
 
       {/* right side dots */}
       <div className="absolute bottom-8 right-5 flex flex-col gap-2">
@@ -105,11 +105,11 @@ export default function Philosophy() {
       <Container>
         {/* Title */}
         <div className="text-center">
-          <h2 className="font-[timesTen] text-[34px] md:text-[64px] xl:text-[80px] leading-[1.05]">
+          <h2 className="font-[timesTen] text-[34px] md:text-[64px] leading-[1.05]">
             <span className="italic font-medium text-white/90">The </span>
             <span className="font-semibold text-white">Philosophy</span>
           </h2>
-          <p className="mt-3 font-[helvetica] text-[14px] sm:text-[16px] md:text-[20px] text-white/60 font-semibold md:font-medium">
+          <p className="mt-3 font-[helvetica] text-[14px] sm:text-[16px] md:text-[20px] text-white font-semibold md:font-medium">
             Operational leadership and strategic consulting.
           </p>
         </div>

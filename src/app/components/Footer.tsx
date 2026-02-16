@@ -84,8 +84,8 @@ export default function Footer() {
           <div>
             <h4 className="text-xl font-semibold">Quick Links</h4>
             <ul className="mt-3 md:mt-6 space-y-1 md:space-y-5 text-white/70 text-[14px] xl:text-[16px]">
-              <li><a className="hover:text-white transition" href="#home">Home</a></li>
-              <li><a className="hover:text-white transition" href="#story">My Story</a></li>
+              {/* <li><a className="hover:text-white transition" href="#home">Home</a></li> */}
+              <li><a className="hover:text-white transition" href="#story">The profile</a></li>
               <li><a className="hover:text-white transition" href="#portfolio">The Portfolio</a></li>
               <li><a className="hover:text-white transition" href="#philosophy">The Philosophy</a></li>
               <li><a className="hover:text-white transition" href="#playback">The Digital Playback</a></li>
