@@ -109,7 +109,7 @@ export default function Philosophy() {
             <span className="italic font-medium text-white/90">The </span>
             <span className="font-semibold text-white">Philosophy</span>
           </h2>
-          <p className="mt-3 font-[helvetica] text-[14px] sm:text-[16px] md:text-[20px] text-white/60 italic">
+          <p className="mt-3 font-[helvetica] text-[14px] sm:text-[16px] md:text-[20px] text-white/60 font-semibold md:font-medium">
             Operational leadership and strategic consulting.
           </p>
         </div>

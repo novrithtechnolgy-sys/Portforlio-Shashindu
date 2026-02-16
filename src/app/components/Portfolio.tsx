@@ -56,7 +56,7 @@ export default function Portfolio() {
                 <span className="font-normal italic">A Portfolio of Innovation and </span>
                 <span className="font-bold">Leadership</span>
             </h1>
-            <p className="mt-4 md:mt-8 xl:mt-6 font-[helvetica] text-[14px] xl:text-[20px] text-white/70 max-w-3xl mx-auto">From founding digital ecosystems to managing established heritage brands. </p>
+            <p className="mt-4 md:mt-8 xl:mt-6 font-[helvetica] text-[14px] xl:text-[20px] text-white/70 max-w-3xl mx-auto font-semibold md:font-medium">From founding digital ecosystems to managing established heritage brands. </p>
         </div>
 
         <div className="text-center">

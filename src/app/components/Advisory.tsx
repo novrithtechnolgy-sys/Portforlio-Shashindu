@@ -11,7 +11,7 @@ export default function Advisory() {
             <span className="italic font-medium text-white/90">Management and </span>
             <span className="font-bold text-white">Advisory</span>
           </h2>
-          <p className="font-[helvetica] md:text-[20px] mt-3 text-white/60 italic">
+          <p className="font-[helvetica] md:text-[20px] mt-3 text-white/60 font-semibold md:font-medium">
             Operational leadership and strategic consulting
           </p>
         </div>
