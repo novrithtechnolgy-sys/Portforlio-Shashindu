@@ -31,7 +31,7 @@ export default function Footer() {
             <h4 className="mt-6 text-xl font-semibold">Connect with Me</h4>
             <div className="mt-3 md:mt-6 space-y-2 md:space-y-5 text-white/75 text-[14px] xl:text-[16px]">
               <p className="text-white/70">hello@shashindudesilva.com</p>
-              <p className="text-white/70">+94 77 123 4567</p>
+              <p className="text-white/70">+94 70 708 2515</p>
               <p className="text-white/70">No 22 Marikkar St, Dharga Town 12090, Sri Lanka</p>
             </div>
           </div>
