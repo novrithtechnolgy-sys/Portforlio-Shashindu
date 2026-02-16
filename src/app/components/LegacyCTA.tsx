@@ -9,15 +9,24 @@ export default function LegacyCTA() {
 const email = "hello@shashindudesilva.com";
 
 const handleEmail = () => {
-  // try open mail app
+  const start = Date.now();
+
+  // try open native mail app
   window.location.href = `mailto:${email}`;
 
-  // fallback after 500ms → open gmail web
+  // if user still on page after delay → open gmail
   setTimeout(() => {
-    window.open(`https://mail.google.com/mail/?view=cm&to=${email}`, "_blank");
-  }, 500);
-};;
+    const end = Date.now();
 
+    // if page still visible (mail app not opened)
+    if (end - start < 1200) {
+      window.open(
+        `https://mail.google.com/mail/?view=cm&fs=1&to=${email}`,
+        "_blank"
+      );
+    }
+  }, 900);
+};
 
   return (
     <section id="contact" className="bg-black py-20 md:py-32 overflow-hidden">
