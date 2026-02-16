@@ -79,8 +79,8 @@ export default function Footer() {
               <li><a className="hover:text-white transition" href="#home">Home</a></li>
               <li><a className="hover:text-white transition" href="#story">My Story</a></li>
               <li><a className="hover:text-white transition" href="#portfolio">The Portfolio</a></li>
-              <li><a className="hover:text-white transition" href="#contact">The Philosophy</a></li>
-              <li><a className="hover:text-white transition" href="#contact">The Digital Playback</a></li>
+              <li><a className="hover:text-white transition" href="#philosophy">The Philosophy</a></li>
+              <li><a className="hover:text-white transition" href="#playback">The Digital Playback</a></li>
               <li><a className="hover:text-white transition" href="#contact">Contact</a></li>
             </ul>
           </div>
