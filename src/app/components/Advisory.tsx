@@ -60,7 +60,7 @@ export default function Advisory() {
               financial sustainability in a competitive tourism market.
             </p>
           </div>
-          <div className="md:mt-50 flex md:block mx-auto h-[340px] w-full md:max-w-[520px] md:h-[420px] justify-center sm:px-30 md:px-0 order-1 md:order-2">
+          <div className="mt-16 md:mt-50 flex md:block mx-auto h-[340px] w-full md:max-w-[520px] md:h-[420px] justify-center sm:px-30 md:px-0 order-1 md:order-2">
             {/* back card */}
             <div className="relative left-8 md:left-0 lg:left-20 top-8 md:top-0 h-[260px] w-full md:h-[280px] md:w-[240px] lg:h-[320px] lg:w-[260px] xl:h-[360px] xl:w-[300px] rotate-[-10deg] rounded-[28px] overflow-hidden border border-white/10 bg-white/5 shadow-[0_40px_120px_rgba(0,0,0,0.75)] z-10">
               <Image
