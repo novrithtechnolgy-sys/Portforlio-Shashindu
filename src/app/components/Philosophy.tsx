@@ -37,7 +37,7 @@ function StoryCard({
   return (
     <div
       className={[
-        "relative overflow-hidden rounded-[34px]  bg-white/5",
+        "relative overflow-hidden rounded-[34px] bg-white/5",
         "shadow-[0_40px_140px_rgba(0,0,0,0.85)]",
         className,
       ].join(" ")}
@@ -68,12 +68,16 @@ function StoryCard({
 export default function Philosophy() {
   const [active, setActive] = useState(0);
 
+  const next = () => setActive((a) => wrap(a + 1, stories.length));
+  const prev = () => setActive((a) => wrap(a - 1, stories.length));
+
   // auto change every 3.5s
   useEffect(() => {
     const t = setInterval(() => {
-      setActive((a) => wrap(a + 1, stories.length));
+      next();
     }, 3500);
     return () => clearInterval(t);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   // touch swipe (mobile)
@@ -89,7 +93,6 @@ export default function Philosophy() {
     const diff = touchStart - endX;
 
     if (Math.abs(diff) > 25) {
-      // swipe left -> next, swipe right -> prev
       setActive((a) => wrap(a + (diff > 0 ? 1 : -1), stories.length));
     }
     setTouchStart(null);
@@ -128,19 +131,36 @@ export default function Philosophy() {
           />
         </div>
 
-        {/* MOBILE (peek carousel like screenshot) */}
+        {/* MOBILE (peek carousel + arrows) */}
         <div
           className="mt-10 md:hidden relative h-[560px] overflow-hidden"
           onTouchStart={onTouchStart}
           onTouchEnd={onTouchEnd}
         >
+          {/* ✅ ARROWS */}
+          <button
+            onClick={prev}
+            aria-label="Previous"
+            className="absolute -left-10 top-1/2 z-30 -translate-y-1/2 text-white/40 hover:text-white/70 transition text-5xl px-3"
+          >
+            ❮❮
+          </button>
+
+          <button
+            onClick={next}
+            aria-label="Next"
+            className="absolute -right-9 top-1/2 z-30 -translate-y-1/2 text-white/40 hover:text-white/70 transition text-5xl px-3"
+          >
+            ❯❯
+          </button>
+
+          {/* cards */}
           <div className="absolute inset-0 flex items-center justify-center">
             {[-1, 0, 1].map((offset) => {
               const idx = wrap(active + offset, stories.length);
               const isCenter = offset === 0;
 
-              // spacing + style to match screenshot
-              const x = offset * 210; // make 190 if you want more side visibility
+              const x = offset * 210;
               const scale = isCenter ? 1 : 0.88;
               const opacity = isCenter ? 1 : 0.45;
               const z = isCenter ? 20 : 10;

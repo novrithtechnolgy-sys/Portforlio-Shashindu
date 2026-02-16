@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className="bg-black pt-20 pb-10">
       <Container>
-        <div className="grid gap-10 md:gap-14 sm:grid-cols-[1.3fr_1fr] lg:grid-cols-[1.3fr_1fr_1fr_1fr] font-[helvetica]">
+        <div className="grid gap-10 md:gap-14 sm:grid-cols-[1.3fr_1fr] lg:grid-cols-[1.3fr_0.6fr_0.4fr] font-[helvetica]">
           {/* LEFT: Brand */}
           <div>
             <div className="flex items-start gap-5">
@@ -26,6 +26,14 @@ export default function Footer() {
               Strategic Entrepreneur and Director Building value across Digital
               Media Hospitality and Real Estate in Sri Lanka
             </p>
+
+            <div>
+            <h4 className="mt-6 text-xl font-semibold">Connect with Me</h4>
+            <div className="mt-3 md:mt-6 space-y-2 md:space-y-5 text-white/75 text-[14px] xl:text-[16px]">
+              <p className="text-white/70">hello@shashindudesilva.com</p>
+              <p className="text-white/70">No 22 Marikkar St, Dharga Town 12090, Sri Lanka</p>
+            </div>
+          </div>
 
             {/* Social icons */}
             <div className="mt-6 md:mt-8 flex items-center gap-6">
@@ -51,16 +59,18 @@ export default function Footer() {
                 <FaLinkedinIn />
               </a>
             </div>
+
+            
           </div>
 
           {/* COLUMN 1 */}
-          <div>
+          {/* <div>
             <h4 className="text-xl font-semibold">Connect with Me</h4>
             <div className="mt-3 md:mt-6 space-y-2 md:space-y-5 text-white/75 text-[14px] xl:text-[16px]">
               <p className="text-white/70">hello@shashindudesilva.com</p>
               <p className="text-white/70">No 22 Marikkar St, Dharga Town 12090, Sri Lanka</p>
             </div>
-          </div>
+          </div> */}
 
           {/* COLUMN 2 */}
           <div>

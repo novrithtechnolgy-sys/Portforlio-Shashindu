@@ -6,8 +6,8 @@ import Image from "next/image";
 import { FiMenu, FiX } from "react-icons/fi";
 
 const links = [
-  { label: "My Story", href: "#story" },
-  { label: "Portfolio", href: "#portfolio" },
+  { label: "The Profile", href: "#story" },
+  { label: "The Portfolio", href: "#portfolio" },
   { label: "The Philosophy", href: "#philosophy" },
   { label: "The Digital Playback", href: "#playback" },
   { label: "Contact", href: "#contact" },

@@ -5,6 +5,20 @@ import { motion } from "framer-motion";
 import { FaAngleDoubleDown } from "react-icons/fa";
 
 export default function LegacyCTA() {
+
+const email = "hello@shashindudesilva.com";
+
+const handleEmail = () => {
+  // try open mail app
+  window.location.href = `mailto:${email}`;
+
+  // fallback after 500ms → open gmail web
+  setTimeout(() => {
+    window.open(`https://mail.google.com/mail/?view=cm&to=${email}`, "_blank");
+  }, 500);
+};;
+
+
   return (
     <section id="contact" className="bg-black py-20 md:py-32 overflow-hidden">
       <Container>
@@ -65,7 +79,7 @@ export default function LegacyCTA() {
             <div className="mt-10 flex flex-col items-center gap-5 md:flex-row md:justify-center md:gap-6">
               {/* Primary */}
               <a
-                href="mailto:youremail@example.com"
+                onClick={handleEmail}
                 className="
                   inline-flex items-center justify-center gap-3
                   w-[280px] md:w-auto
