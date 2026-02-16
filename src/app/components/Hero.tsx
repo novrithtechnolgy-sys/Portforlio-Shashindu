@@ -46,7 +46,10 @@ export default function Hero() {
           </div>
 
           <p className="mx-auto  max-w-[600px] font-[helvetica] text-[14px] font-bold  leading-6 text-white">
-            I am a Strategic Entrepreneur and Director, bridging the gap between digital innovation, hospitality heritage, and real estate. From the initial idea to the boardroom, this is how I build.
+            Legacy brings credibility, but hunger drives progress. While established companies 
+often operate from security, young blood moves from a mindset of proof where strategy 
+must justify itself and every action must deliver impact. The difference is not capability, 
+but urgency, precision, and the willingness to outwork expectations.
           </p>
 
           <div className="mt-8 flex flex-col sm:flex-row sm:justify-center items-center gap-4">
@@ -101,7 +104,10 @@ export default function Hero() {
               <div className="w-full ">
                 <div className="absolute right-3/5 top-10 lg:top-20 mx-auto z-10">
                   <p className="mx-auto font-[helvetica] md:text-[14px] xl:text-[20px] font-bold md:font-medium leading-7 text-white">
-                    I am a Strategic Entrepreneur and Director, bridging the gap between digital innovation, hospitality heritage, and real estate. From the initial idea to the boardroom, this is how I build.
+                    Legacy brings credibility, but hunger drives progress. While established companies 
+often operate from security, young blood moves from a mindset of proof where strategy 
+must justify itself and every action must deliver impact. The difference is not capability, 
+but urgency, precision, and the willingness to outwork expectations.
                   </p>
 
                   <div className="mt-10 flex flex-wrap items-center justify-center gap-6">
