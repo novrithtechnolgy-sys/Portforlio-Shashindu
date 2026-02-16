@@ -45,7 +45,7 @@ export default function Hero() {
             <div className="pointer-events-none absolute inset-x-0 bottom-0 h-16 bg-gradient-to-t from-black to-transparent" />
           </div>
 
-          <p className="mx-auto  max-w-[600px] font-[helvetica] text-[14px] font-bold  leading-6 text-white/65">
+          <p className="mx-auto  max-w-[600px] font-[helvetica] text-[14px] font-bold  leading-6 text-white">
             I am a Strategic Entrepreneur and Director, bridging the gap between digital innovation, hospitality heritage, and real estate. From the initial idea to the boardroom, this is how I build.
           </p>
 
@@ -100,7 +100,7 @@ export default function Hero() {
             <div className="relative flex justify-between z-10 mx-auto w-full mt-3 text-center ">
               <div className="w-full ">
                 <div className="absolute right-3/5 top-10 lg:top-20 mx-auto z-10">
-                  <p className="mx-auto font-[helvetica] md:text-[14px] xl:text-[20px] font-bold md:font-medium leading-7 text-white/65">
+                  <p className="mx-auto font-[helvetica] md:text-[14px] xl:text-[20px] font-bold md:font-medium leading-7 text-white">
                     I am a Strategic Entrepreneur and Director, bridging the gap between digital innovation, hospitality heritage, and real estate. From the initial idea to the boardroom, this is how I build.
                   </p>
 

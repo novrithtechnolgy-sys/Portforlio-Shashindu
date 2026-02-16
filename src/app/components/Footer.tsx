@@ -22,17 +22,17 @@ export default function Footer() {
               </a>
             </div>
 
-            <p className="mt-6 md:mt-10 text-[14px] xl:text-[16px] max-w-md text-white/70 leading-8 font-[helvetica]">
+            <p className="mt-6 md:mt-10 text-[14px] xl:text-[16px] max-w-md text-white leading-8 font-[helvetica]">
               Strategic Entrepreneur and Director, building value across Digital Media, Hospitality, and 
               Real Estate in Sri Lanka.
             </p>
 
             <div>
             <h4 className="mt-6 text-xl font-semibold">Connect with Me</h4>
-            <div className="mt-3 md:mt-6 space-y-2 md:space-y-5 text-white/75 text-[14px] xl:text-[16px]">
-              <p className="text-white/70">hello@shashindudesilva.com</p>
-              <p className="text-white/70">+94 70 708 2515</p>
-              <p className="text-white/70">No 22 Marikkar St, Dharga Town 12090, Sri Lanka</p>
+            <div className="mt-3 md:mt-6 space-y-2 md:space-y-5 text-white text-[14px] xl:text-[16px]">
+              <p className="text-white">hello@shashindudesilva.com</p>
+              <p className="text-white">+94 70 708 2515</p>
+              <p className="text-white">No 22 Marikkar St, Dharga Town 12090, Sri Lanka</p>
             </div>
           </div>
 
@@ -41,21 +41,21 @@ export default function Footer() {
               <a
                 href="https://www.instagram.com/shashindu.desilva/?hl=en"
                 aria-label="Instagram"
-                className="h-10 w-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-white/90 hover:bg-white/10 transition"
+                className="h-10 w-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-white hover:bg-white/10 transition"
               >
                 <FaInstagram />
               </a>
             <a
                 href="https://www.linkedin.com/in/shashindu-de-silva-57920b17a/"
                 aria-label="LinkedIn"
-                className="h-10 w-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-white/90 hover:bg-white/10 transition"
+                className="h-10 w-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-white hover:bg-white/10 transition"
               >
                 <FaLinkedinIn />
               </a>
               <a
                 href="https://www.tiktok.com/@shashindu.desilva"
                 aria-label="TikTok"
-                className="h-10 w-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-white/90 hover:bg-white/10 transition"
+                className="h-10 w-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-white hover:bg-white/10 transition"
               >
                 <FaTiktok />
               </a>
@@ -83,7 +83,7 @@ export default function Footer() {
           {/* COLUMN 2 */}
           <div>
             <h4 className="text-xl font-semibold">Quick Links</h4>
-            <ul className="mt-3 md:mt-6 space-y-1 md:space-y-5 text-white/70 text-[14px] xl:text-[16px]">
+            <ul className="mt-3 md:mt-6 space-y-1 md:space-y-5 text-white text-[14px] xl:text-[16px]">
               {/* <li><a className="hover:text-white transition" href="#home">Home</a></li> */}
               <li><a className="hover:text-white transition" href="#story">The profile</a></li>
               <li><a className="hover:text-white transition" href="#portfolio">The Portfolio</a></li>
@@ -96,7 +96,7 @@ export default function Footer() {
           {/* COLUMN 3 */}
           <div>
             <h4 className="text-xl font-semibold">The Portfolio</h4>
-            <ul className="mt-3 md:mt-6 space-y-1 md:space-y-5 text-white/70 text-[14px] xl:text-[16px]">
+            <ul className="mt-3 md:mt-6 space-y-1 md:space-y-5 text-white text-[14px] xl:text-[16px]">
               <li><a className="hover:text-white transition" href="https://www.thedigitalescapes.com/">Digital Escapes</a></li>
               <li><a className="hover:text-white transition" href="https://www.xtreamdigital.com/">XtreamDigital</a></li>
               <li><a className="hover:text-white transition" href="#portfolio">Travel My Sri Lanka</a></li>
@@ -108,7 +108,7 @@ export default function Footer() {
         </div>
 
         {/* Bottom copyright */}
-        <div className="mt-10 md:mt-16 text-white/50">
+        <div className="mt-10 md:mt-16 text-white">
           © {new Date().getFullYear()} Shashindu de Silva All Rights Reserved
         </div>
       </Container>

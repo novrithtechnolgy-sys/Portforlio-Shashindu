@@ -107,7 +107,7 @@ export default function DigitalPlayback() {
             <span className="italic font-medium text-white/90">The </span>
             <span className="font-bold text-white">Digital Playback</span>
           </h2>
-          <p className="mt-3 font-[helvetica] text-[14px] sm:text-[16px] md:text-[20px] text-white/60 font-semibold md:font-medium">
+          <p className="mt-3 font-[helvetica] text-[14px] sm:text-[16px] md:text-[20px] text-white font-semibold md:font-medium">
             Actionable marketing strategies and business principles delivered in under a minute
           </p>
         </div>
