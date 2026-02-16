@@ -49,7 +49,8 @@ export default function Advisory() {
           {/* RIGHT: Text */}
           <div className="text-center md:text-left">
             <h3 className="font-[timesTen] text-[28px] md:text-[38px] xl:text-[48px] font-medium text-white">
-              Scenery Villas Pvt Ltd
+              Scenery Villas Pvt Ltd.
+              <br />General Manager
             </h3>
 
             <p className="mt-6 font-[helvetica] md:text-[20px] max-w-xl text-white/70 leading-8 mx-auto md:mx-0">

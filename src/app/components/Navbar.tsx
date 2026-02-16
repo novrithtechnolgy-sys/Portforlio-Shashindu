@@ -48,6 +48,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between py-4">
           
           {/* LOGO */}
+          <a href="/">
           <Image
             src="https://res.cloudinary.com/dpjmcup95/image/upload/v1770978880/55d2fdc49bd0966f4bfca0179bc5aea159f209de_pk3jiv.png"
             alt="Logo"
@@ -56,6 +57,7 @@ export default function Navbar() {
             className="object-contain"
             priority
           />
+          </a>
 
           {/* DESKTOP MENU */}
           <nav className="hidden md:flex items-center gap-8 text-sm text-white/80 font-[helvetica]">

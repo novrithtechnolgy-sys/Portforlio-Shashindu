@@ -110,7 +110,7 @@ export default function Philosophy() {
             <span className="font-semibold text-white">Philosophy</span>
           </h2>
           <p className="mt-3 font-[helvetica] text-[14px] sm:text-[16px] md:text-[20px] text-white/60 italic">
-            Operational leadership and strategic consulting
+            Operational leadership and strategic consulting.
           </p>
         </div>
 
@@ -141,7 +141,7 @@ export default function Philosophy() {
           <button
             onClick={prev}
             aria-label="Previous"
-            className="absolute -left-10 top-1/2 z-30 -translate-y-1/2 text-white/40 hover:text-white/70 transition text-5xl px-3"
+            className="absolute -left-8 top-1/2 z-30 -translate-y-1/2 text-white/40 hover:text-white/70 transition text-[40px] md:text-5xl px-3"
           >
             ❮❮
           </button>
@@ -149,7 +149,7 @@ export default function Philosophy() {
           <button
             onClick={next}
             aria-label="Next"
-            className="absolute -right-9 top-1/2 z-30 -translate-y-1/2 text-white/40 hover:text-white/70 transition text-5xl px-3"
+            className="absolute -right-8 top-1/2 z-30 -translate-y-1/2 text-white/40 hover:text-white/70 transition text-[40px] md:text-5xl px-3"
           >
             ❯❯
           </button>

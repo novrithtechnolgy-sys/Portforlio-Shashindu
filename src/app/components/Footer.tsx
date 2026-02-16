@@ -11,7 +11,7 @@ export default function Footer() {
           <div>
             <div className="flex items-start gap-5">
               {/* Replace with your logo */}
-              <div className="relative h-16 w-46 md:h-26 md:w-80 shrink-0">
+              <a href="/" className="relative h-16 w-46 md:h-26 md:w-80 shrink-0">
                 <Image
                   src="https://res.cloudinary.com/dpjmcup95/image/upload/v1770978880/55d2fdc49bd0966f4bfca0179bc5aea159f209de_pk3jiv.png"
                   alt="Logo"
@@ -19,12 +19,12 @@ export default function Footer() {
                   className="object-contain"
                   priority
                 />
-              </div>
+              </a>
             </div>
 
             <p className="mt-6 md:mt-10 text-[14px] xl:text-[16px] max-w-md text-white/70 leading-8 font-[helvetica]">
-              Strategic Entrepreneur and Director Building value across Digital
-              Media Hospitality and Real Estate in Sri Lanka
+              Strategic Entrepreneur and Director, building value across Digital Media, Hospitality, and 
+              Real Estate in Sri Lanka.
             </p>
 
             <div>

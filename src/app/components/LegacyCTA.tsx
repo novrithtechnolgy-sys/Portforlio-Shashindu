@@ -81,7 +81,7 @@ const handleEmail = () => {
               <a
                 onClick={handleEmail}
                 className="
-                  inline-flex items-center justify-center gap-3
+                  inline-flex font-[helvetica] items-center justify-center gap-3
                   w-[280px] md:w-auto
                   rounded-full px-8 py-[14px]
                   text-[15px] font-semibold text-white
@@ -110,7 +110,7 @@ const handleEmail = () => {
               <a
                 href="https://www.zinkq.com/"
                 className="
-                  inline-flex items-center justify-center
+                  inline-flex items-center font-[helvetica] justify-center
                   w-[280px] md:w-auto
                   rounded-full px-8 py-[14px]
                   text-[15px] font-semibold

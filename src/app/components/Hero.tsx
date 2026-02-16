@@ -46,16 +46,13 @@ export default function Hero() {
           </div>
 
           <p className="mx-auto  max-w-[600px] font-[helvetica] text-[14px] font-bold leading-6 text-white/65">
-            I am a Strategic Entrepreneur and Director bridging
-            the gap between digital innovation hospitality
-            heritage and real estate From the initial idea to the
-            boardroom this is how I build
+            I am a Strategic Entrepreneur and Director, bridging the gap between digital innovation, hospitality heritage, and real estate. From the initial idea to the boardroom, this is how I build.
           </p>
 
           <div className="mt-8 flex flex-col sm:flex-row sm:justify-center items-center gap-4">
             <a
             href="#portfolio"
-            className="inline-flex items-center justify-center gap-3 w-[280px] rounded-full px-7 py-[14px]
+            className="inline-flex font-[helvetica] items-center justify-center gap-3 w-[280px] rounded-full px-7 py-[14px]
             text-[15px] font-semibold text-white
             bg-gradient-to-b from-[#3A2BFF] to-[#1B0E86]
             shadow-[0_18px_60px_rgba(58,43,255,0.35)]
@@ -80,7 +77,7 @@ export default function Hero() {
 
             <a
               href="https://www.startupuncut.com/"
-              className="inline-flex items-center justify-center w-[280px] rounded-full px-7 py-[14px]
+              className="inline-flex font-[helvetica] items-center justify-center w-[280px] rounded-full px-7 py-[14px]
               text-[15px] font-semibold text-[#B9A7FF]
               border border-[#3A2BFF]/40 bg-black/30 hover:bg-white/5"
             >
@@ -104,16 +101,13 @@ export default function Hero() {
               <div className="w-full ">
                 <div className="absolute right-3/5 top-10 lg:top-20 mx-auto z-10">
                   <p className="mx-auto font-[helvetica] md:text-[14px] xl:text-[20px] font-bold leading-7 text-white/65">
-                    I am a Strategic Entrepreneur and Director bridging
-                    the gap between digital innovation hospitality
-                    heritage and real estate From the initial idea to the
-                    boardroom this is how I build
+                    I am a Strategic Entrepreneur and Director, bridging the gap between digital innovation, hospitality heritage, and real estate. From the initial idea to the boardroom, this is how I build.
                   </p>
 
                   <div className="mt-10 flex flex-wrap items-center justify-center gap-6">
                     <a
                     href="#portfolio"
-                    className="inline-flex items-center gap-3 rounded-full px-7 py-3 text-sm font-semibold text-white
+                    className="inline-flex font-[helvetica] items-center gap-3 rounded-full px-7 py-3 text-sm font-semibold text-white
                     bg-gradient-to-b from-[#3A2BFF] to-[#1B0E86]
                     shadow-[0_18px_60px_rgba(58,43,255,0.35)]
                     hover:opacity-95"
@@ -136,7 +130,7 @@ export default function Hero() {
 
                     <a
                       href="https://www.startupuncut.com/"
-                      className="inline-flex items-center justify-center rounded-full px-7 py-3 text-sm font-semibold
+                      className="inline-flex font-[helvetica] items-center justify-center rounded-full px-7 py-3 text-sm font-semibold
                       text-[#B9A7FF] border border-[#3A2BFF]/40 bg-black/30
                       hover:bg-white/5"
                     >
