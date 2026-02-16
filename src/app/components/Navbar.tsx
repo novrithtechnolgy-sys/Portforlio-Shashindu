@@ -93,7 +93,7 @@ export default function Navbar() {
 
       {/* MOBILE MENU */}
       <div
-        className={`md:hidden overflow-hidden transition-all duration-300 ${
+        className={`md:hidden absolute left-0 right-0 overflow-hidden transition-all duration-300 ${
           open ? "max-h-96 border-t border-white/10" : "max-h-0"
         }`}
       >
@@ -104,7 +104,7 @@ export default function Navbar() {
                 key={l.href}
                 href={l.href}
                 onClick={() => setOpen(false)}
-                className={`relative text-lg transition ${
+                className={`relative font-[helvetica] text-lg transition ${
                   active === l.href ? "text-white" : ""
                 }`}
               >
@@ -112,7 +112,7 @@ export default function Navbar() {
 
                 {/* underline mobile */}
                 <span
-                  className={`absolute left-0 -bottom-1 h-[2px] bg-[#6C5BFF] transition-all duration-300 ${
+                  className={`absolute left-0 -bottom-1 h-[1px] bg-white transition-all duration-300 ${
                     active === l.href ? "w-full" : "w-0"
                   }`}
                 />

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Container from "./ui/Container";
-import { FaLinkedinIn, FaInstagram, FaFacebookF } from "react-icons/fa";
+import { FaLinkedinIn, FaInstagram, FaFacebookF, FaTiktok, FaYoutube } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -31,6 +31,7 @@ export default function Footer() {
             <h4 className="mt-6 text-xl font-semibold">Connect with Me</h4>
             <div className="mt-3 md:mt-6 space-y-2 md:space-y-5 text-white/75 text-[14px] xl:text-[16px]">
               <p className="text-white/70">hello@shashindudesilva.com</p>
+              <p className="text-white/70">+94 77 123 4567</p>
               <p className="text-white/70">No 22 Marikkar St, Dharga Town 12090, Sri Lanka</p>
             </div>
           </div>
@@ -39,13 +40,6 @@ export default function Footer() {
             <div className="mt-6 md:mt-8 flex items-center gap-6">
               <a
                 href="https://www.instagram.com/shashindu.desilva/?hl=en"
-                aria-label="Facebook"
-                className="h-10 w-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-white/90 hover:bg-white/10 transition"
-              >
-                <FaFacebookF />
-              </a>
-              <a
-                href="https://www.facebook.com/shashindudezilva/"
                 aria-label="Instagram"
                 className="h-10 w-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-white/90 hover:bg-white/10 transition"
               >
@@ -57,6 +51,20 @@ export default function Footer() {
                 className="h-10 w-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-white/90 hover:bg-white/10 transition"
               >
                 <FaLinkedinIn />
+              </a>
+              <a
+                href="https://www.tiktok.com/@shashindu.desilva"
+                aria-label="TikTok"
+                className="h-10 w-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-white/90 hover:bg-white/10 transition"
+              >
+                <FaTiktok />
+              </a>
+              <a
+                href="https://www.youtube.com/channel/UCgX22rg-SzODDauOmUQITJg"
+                aria-label="Youtube"
+                className="h-10 w-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-white/90 hover:bg-white/10 transition"
+              >
+                <FaYoutube />
               </a>
             </div>
 
