@@ -17,34 +17,80 @@ export default function Advisory() {
         </div>
 
         {/* Content */}
-        <div className="mt-14 grid items-center gap-14 md:grid-cols-2">
-          {/* LEFT: Rotated image cards */}
-          <div className=" flex md:block mx-auto h-[340px] w-full md:max-w-[520px] md:h-[420px] justify-center sm:px-30 md:px-0">
-            {/* back card */}
-            <div className="relative left-8 md:left-6 top-8 h-[260px] w-full md:h-[280px] md:w-[240px] lg:h-[320px] lg:w-[260px] xl:h-[360px] xl:w-[300px] rotate-[-10deg] rounded-[28px] overflow-hidden border border-white/10 bg-white/5 shadow-[0_40px_120px_rgba(0,0,0,0.75)]">
-              <Image
-                src="https://res.cloudinary.com/dpjmcup95/image/upload/v1771048907/783d4e35a4a514f11e04c25fe352c064c29b90b6_zya82e.webp"
-                alt="Advisory image 1"
-                fill
-                className="object-cover"
-                sizes="300px"
-              />
-            </div>
+<div className="mt-14 grid items-center gap-14 md:grid-cols-2">
 
-            {/* front card */}
-            <div className="relative -left-8 md:left-28 -bottom-10 md:bottom-55 lg:bottom-60 xl:bottom-70 h-[260px] w-full md:h-[280px] md:w-[240px] lg:h-[320px] lg:w-[260px] xl:h-[360px] xl:w-[330px] rotate-[8deg] rounded-[32px] overflow-hidden border border-white/10 bg-white/5 shadow-[0_50px_150px_rgba(0,0,0,0.85)]">
-              <Image
-                src="https://res.cloudinary.com/dpjmcup95/image/upload/v1771048906/333944d0cb9defa1189a1ff14708c3106a648f90_wglqcu.webp"
-                alt="Advisory image 2"
-                fill
-                className="object-cover"
-                sizes="330px"
-              />
-            </div>
+  {/* LEFT: Rotated image cards */}
+  <div className="flex md:block mx-auto h-[340px] w-full md:max-w-[520px] md:h-[420px] justify-center sm:px-30 md:px-0">
+    
+    {/* group wrapper for desktop hover */}
+    <div className="relative flex md:block group  mx-auto h-[340px] w-full">
 
-            {/* soft fade */}
-            {/* <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_40%_40%,rgba(255,255,255,0.10),rgba(0,0,0,0)_60%)]" /> */}
-          </div>
+      {/* back card */}
+      <div
+        className="
+        relative
+        left-8 md:left-6
+        top-8 md:top-16
+        h-[260px] w-full
+        md:h-[280px] md:w-[240px]
+        lg:h-[320px] lg:w-[260px]
+        xl:h-[360px] xl:w-[300px]
+        rotate-[-10deg]
+        rounded-[28px] overflow-hidden
+        border border-white/10 bg-white/5
+        shadow-[0_40px_120px_rgba(0,0,0,0.75)]
+        z-10
+
+        md:transition-all md:duration-700 md:ease-[cubic-bezier(.19,1,.22,1)]
+        md:group-hover:z-30
+        md:group-hover:rotate-[8deg]
+        md:group-hover:translate-x-16
+        md:group-hover:-translate-y-8
+        "
+      >
+        <Image
+          src="https://res.cloudinary.com/dpjmcup95/image/upload/v1771048907/783d4e35a4a514f11e04c25fe352c064c29b90b6_zya82e.webp"
+          alt="Advisory image 1"
+          fill
+          className="object-cover"
+          sizes="300px"
+        />
+      </div>
+
+      {/* front card */}
+      <div
+        className="
+        relative
+        -left-8 md:left-28
+        -bottom-10 md:bottom-55 lg:bottom-60 xl:bottom-80
+        h-[260px] w-full
+        md:h-[280px] md:w-[240px]
+        lg:h-[320px] lg:w-[260px]
+        xl:h-[360px] xl:w-[330px]
+        rotate-[8deg]
+        rounded-[32px] overflow-hidden
+        border border-white/10 bg-white/5
+        shadow-[0_50px_150px_rgba(0,0,0,0.85)]
+        z-20
+
+        md:transition-all md:duration-700 md:ease-[cubic-bezier(.19,1,.22,1)]
+        md:group-hover:z-10
+        md:group-hover:rotate-[-10deg]
+        md:group-hover:-translate-x-20
+        md:group-hover:translate-y-10
+        "
+      >
+        <Image
+          src="https://res.cloudinary.com/dpjmcup95/image/upload/v1771048906/333944d0cb9defa1189a1ff14708c3106a648f90_wglqcu.webp"
+          alt="Advisory image 2"
+          fill
+          className="object-cover"
+          sizes="330px"
+        />
+      </div>
+
+    </div>
+  </div>
 
           {/* RIGHT: Text */}
           <div className="text-center md:text-left">
@@ -60,31 +106,78 @@ export default function Advisory() {
               financial sustainability in a competitive tourism market.
             </p>
           </div>
-          <div className="mt-16 md:mt-50 flex md:block mx-auto h-[340px] w-full md:max-w-[520px] md:h-[420px] justify-center sm:px-30 md:px-0 order-1 md:order-2">
-            {/* back card */}
-            <div className="relative left-8 md:left-0 lg:left-20 top-8 md:top-0 h-[260px] w-full md:h-[280px] md:w-[240px] lg:h-[320px] lg:w-[260px] xl:h-[360px] xl:w-[300px] rotate-[-10deg] rounded-[28px] overflow-hidden border border-white/10 bg-white/5 shadow-[0_40px_120px_rgba(0,0,0,0.75)] z-10">
-              <Image
-                src="https://res.cloudinary.com/dpjmcup95/image/upload/v1771252210/AH2I7010-HDR-Edit-copy.jpg_1_nshntr.webp"
-                alt="Advisory image 1"
-                fill
-                className="object-cover"
-                sizes="300px"
-              />
-            </div>
-            {/* front card */}
-            <div className="relative -left-8 md:left-20 lg:left-48 -bottom-10 md:bottom-80 lg:bottom-90 xl:bottom-100 h-[260px] w-full md:h-[280px] md:w-[240px] lg:h-[320px] lg:w-[260px] xl:h-[360px] xl:w-[330px] rotate-[8deg] rounded-[32px] overflow-hidden border border-white/10 bg-white/5 shadow-[0_50px_150px_rgba(0,0,0,0.85)]">
-              <Image
-                src="https://res.cloudinary.com/dpjmcup95/image/upload/v1771252217/AH2I7241-HDR-Edit-copy_cvygpj.webp"
-                alt="Advisory image 2"
-                fill
-                className="object-cover"
-                sizes="330px"
-              />
-            </div>
+<div className="mt-16 md:mt-50 flex md:block mx-auto h-[340px] w-full md:max-w-[520px] md:h-[420px] justify-center sm:px-30 md:px-0 order-1 md:order-2">
+  {/* ✅ group ONLY adds hover behavior on desktop, mobile stays exactly same */}
+  <div className="relative flex md:block group mx-auto h-[340px] w-full ">
+    {/* back card */}
+    <div
+      className="
+        relative
+        left-8 md:left-0 lg:left-20
+        top-8 md:top-0
+        h-[260px] w-full
+        md:h-[280px] md:w-[240px]
+        lg:h-[320px] lg:w-[260px]
+        xl:h-[360px] xl:w-[300px]
+        rotate-[-10deg]
+        rounded-[28px] overflow-hidden
+        border border-white/10 bg-white/5
+        shadow-[0_40px_120px_rgba(0,0,0,0.75)]
+        z-10
 
-            {/* soft fade */}
-            {/* <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_40%_40%,rgba(255,255,255,0.10),rgba(0,0,0,0)_60%)]" /> */}
-          </div>
+        md:transition-all md:duration-700 md:ease-[cubic-bezier(.19,1,.22,1)]
+        md:group-hover:z-30
+        md:group-hover:rotate-[8deg]
+        md:group-hover:translate-x-16
+        md:group-hover:-translate-y-8
+      "
+    >
+      <Image
+        src="https://res.cloudinary.com/dpjmcup95/image/upload/v1771252210/AH2I7010-HDR-Edit-copy.jpg_1_nshntr.webp"
+        alt="Advisory image 1"
+        fill
+        className="object-cover"
+        sizes="300px"
+      />
+    </div>
+
+    {/* front card */}
+    <div
+      className="
+        relative
+        -left-8 md:left-20 lg:left-48
+        -bottom-10 md:bottom-80 lg:bottom-90 xl:bottom-100
+        h-[260px] w-full
+        md:h-[280px] md:w-[240px]
+        lg:h-[320px] lg:w-[260px]
+        xl:h-[360px] xl:w-[330px]
+        rotate-[8deg]
+        rounded-[32px] overflow-hidden
+        border border-white/10 bg-white/5
+        shadow-[0_50px_150px_rgba(0,0,0,0.85)]
+        z-20
+
+        md:transition-all md:duration-700 md:ease-[cubic-bezier(.19,1,.22,1)]
+        md:group-hover:z-10
+        md:group-hover:rotate-[-10deg]
+        md:group-hover:-translate-x-20
+        md:group-hover:translate-y-10
+      "
+    >
+      <Image
+        src="https://res.cloudinary.com/dpjmcup95/image/upload/v1771252217/AH2I7241-HDR-Edit-copy_cvygpj.webp"
+        alt="Advisory image 2"
+        fill
+        className="object-cover"
+        sizes="330px"
+      />
+    </div>
+
+    {/* soft fade (optional) */}
+    {/* <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_40%_40%,rgba(255,255,255,0.10),rgba(0,0,0,0)_60%)]" /> */}
+  </div>
+</div>
+
 
           {/* RIGHT: Text */}
           <div className="text-center md:text-left order-2 md:order-1 md:mt-30">

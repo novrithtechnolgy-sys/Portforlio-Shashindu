@@ -20,7 +20,6 @@ const stories: Story[] = [
     image: "https://res.cloudinary.com/dpjmcup95/image/upload/v1771315559/Artboard_4_qiscwe.png",
   },
 ];
-
 function wrap(i: number, len: number) {
   return (i % len + len) % len;
 }

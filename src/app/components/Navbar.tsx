@@ -50,12 +50,12 @@ export default function Navbar() {
           {/* LOGO */}
           <a href="/">
           <Image
-            src="https://res.cloudinary.com/dpjmcup95/image/upload/v1770978880/55d2fdc49bd0966f4bfca0179bc5aea159f209de_pk3jiv.png"
+            src="Logoanimation.gif"
             alt="Logo"
             width={120}
             height={40}
-            className="object-contain"
-            priority
+            className="object-contain h-8 md:h-12 -mr-20 md:-mr-17"
+            unoptimized
           />
           </a>
 
