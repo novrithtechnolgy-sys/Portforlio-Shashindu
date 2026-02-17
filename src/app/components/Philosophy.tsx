@@ -9,15 +9,15 @@ type Story = { id: string; image: string };
 const stories: Story[] = [
   {
     id: "s1",
-    image: "https://res.cloudinary.com/dpjmcup95/image/upload/v1771055517/d1eb95f29e1c5a7baf7d4b127ec7612c7fd81c71_po3eiu.jpg",
+    image: "https://res.cloudinary.com/dpjmcup95/image/upload/v1771315563/Artboard_7_ielegt.png",
   },
   {
     id: "s2",
-    image: "https://res.cloudinary.com/dpjmcup95/image/upload/v1771054995/aabf4160ce62fe766da5c0b0e4761e44be613cc1_ydgm1x.jpg",
+    image: "https://res.cloudinary.com/dpjmcup95/image/upload/v1771315559/Artboard_3_sjpcbp.png",
   },
   {
     id: "s3",
-    image: "https://res.cloudinary.com/dpjmcup95/image/upload/v1771056210/6121aea320dfe236ece6094160df4dcfceead2ef_gxiuo8.jpg",
+    image: "https://res.cloudinary.com/dpjmcup95/image/upload/v1771315559/Artboard_4_qiscwe.png",
   },
 ];
 
