@@ -45,6 +45,12 @@ const ventures = [
     desc: "Sri Lankas Number 1 Startup community built for founders and entrepreneurs. We provide a space to connect collaborate and grow together",
     logo: "https://res.cloudinary.com/dpjmcup95/image/upload/v1771047205/36ff0807c0ad777eca54ef847684d30ae53b8829_dr2e4d.webp",
   },
+    {
+    name: "Startup Uncut",
+    url: "https://startupuncut.com/",
+    desc: "From failed A/L dreams to building brands, this is the unfiltered story of how Startup Uncut began. We provide a space to connect collaborate and grow together",
+    logo: "https://res.cloudinary.com/dpjmcup95/image/upload/v1771302697/Copy_of_Black_and_White_Minimalist_Music_Studio_Logo_abbxvv_tjbfum.webp",
+  },
 ];
 
 export default function Portfolio() {
