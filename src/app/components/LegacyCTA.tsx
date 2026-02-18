@@ -93,8 +93,8 @@ const handleEmail = () => {
                   inline-flex font-[helvetica] items-center justify-center gap-3
                   w-[280px] md:w-auto
                   rounded-full px-8 py-[14px]
-                  text-[15px] font-semibold text-white
-                  bg-gradient-to-b from-[#3B2BFF] to-[#120B7A]
+                  text-[15px] font-semibold text-black
+                  bg-white
                   shadow-[0_18px_60px_rgba(59,43,255,0.35)]
                   ring-1 ring-white/10
                   hover:brightness-110 active:scale-[0.99]
@@ -109,7 +109,7 @@ const handleEmail = () => {
                     repeat: Infinity,
                     ease: "easeInOut",
                     }}
-                    className="text-white/90"
+                    className="text-black/90"
                 >
                     <FaAngleDoubleDown size={18} />
                 </motion.span>
@@ -123,11 +123,11 @@ const handleEmail = () => {
                   w-[280px] md:w-auto
                   rounded-full px-8 py-[14px]
                   text-[15px] font-semibold
-                  text-[#7E63FF]
+                  text-white
                   bg-black/40
-                  border border-[#3B2BFF]/55
+                  border border-white/55
                   shadow-[inset_0_0_0_1px_rgba(0,0,0,0.35)]
-                  hover:bg-white/5 hover:border-[#3B2BFF]/75
+                  hover:bg-white/5 hover:border-white/75
                   active:scale-[0.99]
                   transition
                 "

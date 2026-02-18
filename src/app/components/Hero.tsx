@@ -56,8 +56,8 @@ but urgency, precision, and the willingness to outwork expectations.
             <a
             href="#portfolio"
             className="inline-flex font-[helvetica] items-center justify-center gap-3 w-[280px] rounded-full px-7 py-[14px]
-            text-[15px] font-semibold text-white
-            bg-gradient-to-b from-[#3A2BFF] to-[#1B0E86]
+            text-[15px] font-semibold text-black
+            bg-white
             shadow-[0_18px_60px_rgba(58,43,255,0.35)]
             hover:opacity-95"
             >
@@ -71,7 +71,7 @@ but urgency, precision, and the willingness to outwork expectations.
                         repeat: Infinity,
                         ease: "easeInOut",
                         }}
-                        className="text-white/90"
+                        className="text-black/90"
                     >
                         <FaAngleDoubleDown size={18} />
                     </motion.span>
@@ -81,8 +81,8 @@ but urgency, precision, and the willingness to outwork expectations.
             <a
               href="https://www.startupuncut.com/"
               className="inline-flex font-[helvetica] items-center justify-center w-[280px] rounded-full px-7 py-[14px]
-              text-[15px] font-semibold text-[#B9A7FF]
-              border border-[#3A2BFF]/40 bg-black/30 hover:bg-white/5"
+              text-[15px] font-semibold text-white
+              border border-white/40 bg-black/30 hover:bg-white/5"
             >
               Watch “Startup Uncut”
             </a>
@@ -113,8 +113,8 @@ but urgency, precision, and the willingness to outwork expectations.
                   <div className="mt-10 flex flex-wrap items-center justify-center gap-6">
                     <a
                     href="#portfolio"
-                    className="inline-flex font-[helvetica] items-center gap-3 rounded-full px-7 py-3 text-sm font-semibold text-white
-                    bg-gradient-to-b from-[#3A2BFF] to-[#1B0E86]
+                    className="inline-flex font-[helvetica] items-center gap-3 rounded-full px-7 py-3 text-sm font-semibold
+                    bg-white text-black
                     shadow-[0_18px_60px_rgba(58,43,255,0.35)]
                     hover:opacity-95"
                     >
@@ -128,7 +128,7 @@ but urgency, precision, and the willingness to outwork expectations.
                         repeat: Infinity,
                         ease: "easeInOut",
                         }}
-                        className="text-white/90"
+                        className="text-black/90"
                     >
                         <FaAngleDoubleDown size={18} />
                     </motion.span>
@@ -137,7 +137,7 @@ but urgency, precision, and the willingness to outwork expectations.
                     <a
                       href="https://www.startupuncut.com/"
                       className="inline-flex font-[helvetica] items-center justify-center rounded-full px-7 py-3 text-sm font-semibold
-                      text-[#B9A7FF] border border-[#3A2BFF]/40 bg-black/30
+                      text-white border border-white/40 bg-black
                       hover:bg-white/5"
                     >
                       Watch “Startup Uncut”

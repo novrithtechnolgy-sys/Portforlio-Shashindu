@@ -21,14 +21,15 @@ export default function Advisory() {
             alt="Logo"
             width={120}
             height={40}
-            className="object-contain md:h-120 w-300 md:w-500"
+            className="object-contain md:h-80 w-300 md:w-400"
             unoptimized
           />
         </div>
         {/* Content */}
-      <div className="mt-14 grid items-center gap-14 md:grid-cols-2">
+        <div className="mt-14 md:mt-14 grid gap-14 md:grid-cols-2">
+
           {/* RIGHT: Text */}
-          <div className="text-center md:text-left">
+          <div className="text-center md:text-left ">
             <h3 className="font-[timesTen] text-[24px] md:text-[38px] xl:text-[48px] font-medium text-white">
               Scenery Villas Pvt Ltd.
               <br />General Manager
@@ -42,8 +43,8 @@ export default function Advisory() {
             </p>
           </div>
           {/* RIGHT: Text */}
-          <div className="text-center md:text-left order-2 md:order-1 md:mt-30 order-1">
-            <h3 className="font-[timesTen] text-[24px] md:text-[38px] xl:text-[48px] font-medium text-white">
+          <div className="text-center md:text-left ">
+            <h3 className="font-[timesTen] text-[24px] md:text-[38px] xl:text-[42px] font-medium text-white">
               AIDA Group of Companies
               <br />Former General Manager
             </h3>
@@ -53,7 +54,7 @@ export default function Advisory() {
               ​I focused on aligning these distinct sectors, including wellness, retail, and hospitality under a unified brand identity, driving operational excellence to transform multiple business units into one cohesive, world-class experience
             </p>
           </div>
-        </div>
+          </div>
       </Container>
     </section>
   );
