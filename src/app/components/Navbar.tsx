@@ -50,11 +50,11 @@ export default function Navbar() {
           {/* LOGO */}
           <a href="/">
           <Image
-            src="Logoanimation.gif"
+            src="Logo - NavigationBar_Version.gif"
             alt="Logo"
             width={120}
             height={40}
-            className="object-contain h-8 md:h-12 -mr-20 md:-mr-17"
+            className="object-contain h-8 md:h-12 w-50 -mr-20 md:-mr-18"
             unoptimized
           />
           </a>
