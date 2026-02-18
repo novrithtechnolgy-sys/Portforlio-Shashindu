@@ -95,7 +95,6 @@ const handleEmail = () => {
                   rounded-full px-8 py-[14px]
                   text-[15px] font-semibold text-black
                   bg-white
-                  shadow-[0_18px_60px_rgba(59,43,255,0.35)]
                   ring-1 ring-white/10
                   hover:brightness-110 active:scale-[0.99]
                   transition

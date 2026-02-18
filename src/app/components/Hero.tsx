@@ -58,7 +58,6 @@ but urgency, precision, and the willingness to outwork expectations.
             className="inline-flex font-[helvetica] items-center justify-center gap-3 w-[280px] rounded-full px-7 py-[14px]
             text-[15px] font-semibold text-black
             bg-white
-            shadow-[0_18px_60px_rgba(58,43,255,0.35)]
             hover:opacity-95"
             >
             Explore the Portfolio
