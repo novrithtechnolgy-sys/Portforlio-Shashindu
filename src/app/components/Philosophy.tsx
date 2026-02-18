@@ -158,7 +158,7 @@ export default function Philosophy() {
 
         {/* MOBILE (peek carousel + arrows) */}
         <div
-          className="mt-10 md:hidden relative h-[560px] overflow-hidden"
+          className="mt-14 md:hidden relative h-[560px] overflow-hidden"
           onTouchStart={onTouchStart}
           onTouchEnd={onTouchEnd}
         >

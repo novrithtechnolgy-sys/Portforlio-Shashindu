@@ -114,7 +114,7 @@ export default function DigitalPlayback() {
 
         {/* Carousel */}
         <div
-          className="relative mt-14 md:mt-16 h-[520px] md:h-[620px] overflow-x-clip"
+          className="relative mt-6 md:mt-16 h-[520px] md:h-[620px] overflow-x-clip"
           onTouchStart={onTouchStart}
           onTouchEnd={onTouchEnd}
         >

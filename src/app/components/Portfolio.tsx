@@ -73,7 +73,7 @@ export default function Portfolio() {
             <p className="mt-4 font-[helvetica] text-[14px] xl:text-[20px] text-white max-w-3xl mx-auto">The companies built from the ground up.</p>
         </div>
 
-        <div className="mt-10 md:mt-12 grid gap-5">
+        <div className="mt-14 md:mt-12 grid gap-5">
           {ventures.map((v) => (
             <Card key={v.name} href={v.url}>
               <div className="flex flex-col md:flex-row items-center md:justify-between justify-center gap-6 px-4 md:px-16 py-4 lg:py-16 xl:py-0">
