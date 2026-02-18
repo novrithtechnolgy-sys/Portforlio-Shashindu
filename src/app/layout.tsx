@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   creator: "Shashindu Desilva",
 
   openGraph: {
-    title: "Shashindu Desilva Portfolio",
+    title: "Shashindu De silva",
     description:
       "Entrepreneur and strategist building digital brands, hospitality ventures and startups.",
     url: "https://yourdomain.com",
