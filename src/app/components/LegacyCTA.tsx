@@ -101,17 +101,12 @@ const handleEmail = () => {
                 "
               >
                 Start the Conversation{" "}
-                <motion.span
-                    animate={{ y: [0, 8, 0] }}
-                    transition={{
-                    duration: 1.2,
-                    repeat: Infinity,
-                    ease: "easeInOut",
-                    }}
+                <span
+
                     className="text-black/90"
                 >
                     <FaAngleDoubleDown size={18} />
-                </motion.span>
+                </span>
               </a>
 
               {/* Secondary */}

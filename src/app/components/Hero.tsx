@@ -63,17 +63,13 @@ but urgency, precision, and the willingness to outwork expectations.
             Explore the Portfolio
 
             {/* animated arrow */}
-                    <motion.span
-                        animate={{ y: [0, 8, 0] }}
-                        transition={{
-                        duration: 1.2,
-                        repeat: Infinity,
-                        ease: "easeInOut",
-                        }}
+                    <span
+
+        
                         className="text-black/90"
                     >
                         <FaAngleDoubleDown size={18} />
-                    </motion.span>
+                    </span>
             </a>
 
 
@@ -119,17 +115,11 @@ but urgency, precision, and the willingness to outwork expectations.
                     Explore the Portfolio
 
                     {/* animated icon */}
-                    <motion.span
-                        animate={{ y: [0, 8, 0] }}
-                        transition={{
-                        duration: 1.2,
-                        repeat: Infinity,
-                        ease: "easeInOut",
-                        }}
+                    <span
                         className="text-black/90"
                     >
                         <FaAngleDoubleDown size={18} />
-                    </motion.span>
+                    </span>
                     </a>
 
                     <a
