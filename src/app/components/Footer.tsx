@@ -109,7 +109,7 @@ export default function Footer() {
 
         {/* Bottom copyright */}
         <div className="mt-10 md:mt-16 text-white">
-          © {new Date().getFullYear()} Shashindu de Silva All Rights Reserved
+          © {new Date().getFullYear()} Shashindu De Silva All Rights Received.
         </div>
       </Container>
     </footer>
