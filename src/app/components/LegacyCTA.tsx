@@ -78,10 +78,10 @@ const handleEmail = () => {
 
             {/* Paragraph */}
             <p className="mt-6 mx-auto max-w-[420px] md:max-w-4xl font-[helvetica] font-semibold md:font-medium text-[14px] md:text-[20px] text-white leading-7 md:leading-8">
-              I do not just build companies I build value chains Whether you need
-              strategic digital marketing operational advice for hospitality or a
-              partnership that drives growth let us bridge the gap between vision
-              and execution
+              I do not just build companies. I build value chains. Whether you need
+              strategic digital marketing operational advice for hospitality, or a
+              partnership that drives growth, let us bridge the gap between vision
+              and execution.
             </p>
 
             {/* Buttons */}

@@ -8,7 +8,7 @@ const ventures = [
   {
     name: "Digital Escapes",
     url: "https://www.thedigitalescapes.com/",
-    desc: "A niche agency dedicated exclusively to the hospitality sector We transform how hotels and villas connect with guests by driving direct bookings and building premium brand identities.",
+    desc: "A niche agency dedicated exclusively to the hospitality sector. We transform how hotels and villas connect with guests by driving direct bookings and building premium brand identities.",
     logo: "https://res.cloudinary.com/dpjmcup95/image/upload/v1771044812/ce64ec787eb46eceada1d3e71ad875061e2258d9_oovf64.webp",
   },
   {

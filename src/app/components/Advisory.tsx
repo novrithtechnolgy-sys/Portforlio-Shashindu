@@ -12,7 +12,7 @@ export default function Advisory() {
             <span className="font-bold text-white">Advisory</span>
           </h2>
           <p className="font-[helvetica] md:text-[20px] mt-3 text-white font-semibold md:font-medium">
-            Operational leadership and strategic consulting
+            Operational leadership and strategic consulting.
           </p>
         </div>
         <div className="flex justify-center">
@@ -36,7 +36,7 @@ export default function Advisory() {
             </h3>
 
             <p className="mt-6 font-[helvetica] md:text-[20px] max-w-xl text-white leading-8 mx-auto md:mx-0">
-              The General Manager Taking over operations at age 19
+              The General Manager Taking over operations at age 19,
               I have led the strategic growth and guest excellence of this luxury property. My role
               involves overseeing daily operations, maintaining high service standards and ensuring
               financial sustainability in a competitive tourism market.
@@ -51,7 +51,7 @@ export default function Advisory() {
 
             <p className="mt-6 font-[helvetica] md:text-[20px] max-w-xl text-white leading-8 mx-auto md:mx-0">
               As Former General Manager of Aida Group, I spearheaded the operations of a diverse portfolio spanning Aida Ayurveda Resort & Spa, Aida Textiles, and our flagship Hotel, Restaurant, and Coffeeshop.
-              ​I focused on aligning these distinct sectors, including wellness, retail, and hospitality under a unified brand identity, driving operational excellence to transform multiple business units into one cohesive, world-class experience
+              ​I focused on aligning these distinct sectors, including wellness, retail, and hospitality under a unified brand identity, driving operational excellence to transform multiple business units into one cohesive, world-class experience.
             </p>
           </div>
           </div>
