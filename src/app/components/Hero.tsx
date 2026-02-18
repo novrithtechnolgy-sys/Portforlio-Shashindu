@@ -18,7 +18,7 @@ export default function Hero() {
 
       <Container>
         {/* ✅ MOBILE ONLY (like screenshot) */}
-        <div className="relative pt-14 pb-14 text-center md:hidden">
+        <div className="relative pt-14 pb-0 text-center md:hidden">
           <h1 className="sm:hidden text-[44px] leading-[1.02] text-white font-[timesTen]">
             Building Value.
             <br />

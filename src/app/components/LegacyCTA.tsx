@@ -29,7 +29,7 @@ const handleEmail = () => {
 };
 
   return (
-    <section id="contact" className="bg-black py-20 md:py-32 overflow-hidden">
+    <section id="contact" className="bg-black py-0 md:py-0 overflow-hidden">
       <Container>
         <div className="relative overflow-hidden rounded-[34px] bg-white/5 shadow-[0_50px_160px_rgba(0,0,0,0.85)]">
           {/* Background image */}

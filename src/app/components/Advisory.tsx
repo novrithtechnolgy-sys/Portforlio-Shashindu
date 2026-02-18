@@ -3,7 +3,7 @@ import Container from "./ui/Container";
 
 export default function Advisory() {
   return (
-    <section id="advisory" className="py-20 md:py-28 bg-black">
+    <section id="advisory" className="py-20 md:py-40 bg-black">
       <Container>
         {/* Heading */}
         <div className="text-center">

@@ -4,7 +4,7 @@ import { FaLinkedinIn, FaInstagram, FaFacebookF, FaTiktok, FaYoutube } from "rea
 
 export default function Footer() {
   return (
-    <footer className="bg-black pt-20 pb-10">
+    <footer className="bg-black pt-20 md:pt-42 pb-10">
       <Container>
         <div className="grid gap-10 md:gap-14 sm:grid-cols-[1.3fr_1fr] lg:grid-cols-[1.3fr_0.6fr_0.4fr] font-[helvetica]">
           {/* LEFT: Brand */}

@@ -3,7 +3,7 @@ import Container from "./ui/Container";
 
 export default function Profile() {
   return (
-    <section id="story" className="">
+    <section id="story" className="pt-20 md:pt-0">
       <Container>
         <div className="relative overflow-hidden rounded-[32px] border border-white/10 bg-white/[0.06] shadow-[0_40px_120px_rgba(0,0,0,0.7)]">
           {/* subtle background glow */}

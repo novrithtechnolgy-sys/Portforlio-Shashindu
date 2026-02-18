@@ -99,7 +99,7 @@ export default function DigitalPlayback() {
   };
 
   return (
-    <section id="playback" className="bg-black py-20 md:py-28 overflow-hidden">
+    <section id="playback" className="bg-black py-20 md:py-40 overflow-hidden">
       <div className="mx-auto max-w-6xl px-4">
         {/* Title */}
         <div className="text-center">

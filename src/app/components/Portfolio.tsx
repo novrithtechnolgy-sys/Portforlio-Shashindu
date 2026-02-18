@@ -57,7 +57,7 @@ export default function Portfolio() {
   return (
     <section id="portfolio" className="">
       <Container>
-        <div className="text-center py-24 md:py-34 xl:py-44">
+        <div className="text-center py-20 md:py-30 xl:py-40">
             <h1 className="font-[timesTen] text-[34px] md:text-[64px]  max-w-5xl mx-auto font-semibold leading-tight">
                 <span className="font-normal italic">A Portfolio of Innovation and </span>
                 <span className="font-bold">Leadership</span>

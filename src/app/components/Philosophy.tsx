@@ -19,7 +19,16 @@ const stories: Story[] = [
     id: "s3",
     image: "https://res.cloudinary.com/dpjmcup95/image/upload/v1771315559/Artboard_4_qiscwe.png",
   },
+  {
+    id: "s4",
+    image: "https://res.cloudinary.com/dpjmcup95/image/upload/v1771410768/Artboard_5_ijavyk.png",
+  },
+  {
+    id: "s5",
+    image: "https://res.cloudinary.com/dpjmcup95/image/upload/v1771410770/Artboard_6_gvygn8.png",
+  },
 ];
+
 function wrap(i: number, len: number) {
   return (i % len + len) % len;
 }
@@ -50,11 +59,6 @@ function StoryCard({
         priority={priority}
       />
 
-      {/* overlays */}
-      {/* <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_35%,rgba(255,255,255,0.12),rgba(0,0,0,0)_55%)]" /> */}
-      {/* <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-black/70 to-transparent" /> */}
-
-      {/* right side dots */}
       <div className="absolute bottom-8 right-5 flex flex-col gap-2">
         <span className="h-2 w-2 rounded-full bg-white/70" />
         <span className="h-2 w-2 rounded-full bg-white/40" />
@@ -72,9 +76,7 @@ export default function Philosophy() {
 
   // auto change every 3.5s
   useEffect(() => {
-    const t = setInterval(() => {
-      next();
-    }, 3500);
+    const t = setInterval(() => next(), 3500);
     return () => clearInterval(t);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
@@ -97,10 +99,16 @@ export default function Philosophy() {
     setTouchStart(null);
   };
 
+  // keep memo (not required, but fine)
   const desktopCards = useMemo(() => stories, []);
 
+  // ✅ DESKTOP visible indexes (same UI, just dynamic images)
+  const leftIdx = wrap(active - 1, desktopCards.length);
+  const centerIdx = wrap(active, desktopCards.length);
+  const rightIdx = wrap(active + 1, desktopCards.length);
+
   return (
-    <section id="philosophy" className="bg-black py-20 md:py-28">
+    <section id="philosophy" className="bg-black py-0 md:py-0">
       <Container>
         {/* Title */}
         <div className="text-center">
@@ -113,19 +121,37 @@ export default function Philosophy() {
           </p>
         </div>
 
-        {/* DESKTOP (static 3 cards like design) */}
-        <div className="mt-14 hidden md:flex items-end justify-center gap-10">
+        {/* ✅ DESKTOP (same design, add buttons + dynamic images) */}
+        <div className="relative mt-14 hidden md:flex items-end justify-center gap-10">
+          {/* desktop arrows (ONLY desktop) */}
+          <button
+            onClick={prev}
+            aria-label="Previous"
+            className="absolute left-0 top-1/2 z-30 -translate-y-1/2 text-white/40 hover:text-white/70 transition text-5xl px-3"
+          >
+            ❮❮
+          </button>
+
+          <button
+            onClick={next}
+            aria-label="Next"
+            className="absolute right-0 top-1/2 z-30 -translate-y-1/2 text-white/40 hover:text-white/70 transition text-5xl px-3"
+          >
+            ❯❯
+          </button>
+
+          {/* SAME UI (sizes/opacities unchanged) */}
           <StoryCard
-            image={desktopCards[0].image}
+            image={desktopCards[leftIdx].image}
             className="h-[520px] w-[362px] opacity-85"
           />
           <StoryCard
-            image={desktopCards[1].image}
+            image={desktopCards[centerIdx].image}
             className="h-[560px] w-[420px]"
             priority
           />
           <StoryCard
-            image={desktopCards[2].image}
+            image={desktopCards[rightIdx].image}
             className="h-[520px] w-[362px] opacity-85"
           />
         </div>
@@ -177,7 +203,9 @@ export default function Philosophy() {
                 >
                   <StoryCard
                     image={stories[idx].image}
-                    className={isCenter ? "h-[520px] w-[320px]" : "h-[500px] w-[300px]"}
+                    className={
+                      isCenter ? "h-[520px] w-[320px]" : "h-[500px] w-[300px]"
+                    }
                     priority={isCenter}
                   />
                 </div>
