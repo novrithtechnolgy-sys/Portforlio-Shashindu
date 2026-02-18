@@ -54,7 +54,7 @@ export default function Navbar() {
             alt="Logo"
             width={120}
             height={40}
-            className="object-contain h-8 md:h-12 w-50 -mr-20 md:-mr-18"
+            className="object-contain h-8 md:h-12 w-50 -mr-30 md:-mr-18"
             unoptimized
           />
           </a>
