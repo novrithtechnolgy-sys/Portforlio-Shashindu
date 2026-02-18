@@ -114,7 +114,6 @@ but urgency, precision, and the willingness to outwork expectations.
                     href="#portfolio"
                     className="inline-flex font-[helvetica] items-center gap-3 rounded-full px-7 py-3 text-sm font-semibold
                     bg-white text-black
-                    shadow-[0_18px_60px_rgba(58,43,255,0.35)]
                     hover:opacity-95"
                     >
                     Explore the Portfolio
