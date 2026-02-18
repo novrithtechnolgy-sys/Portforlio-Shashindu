@@ -44,8 +44,8 @@ export default function Advisory() {
           </div>
           {/* RIGHT: Text */}
           <div className="text-center md:text-left ">
-            <h3 className="font-[timesTen] text-[24px] md:text-[38px] xl:text-[42px] font-medium text-white">
-              AIDA Group of Companies
+            <h3 className="font-[timesTen] text-[24px] md:text-[38px] xl:text-[48px] font-medium text-white">
+              AIDA Group 
               <br />Former General Manager
             </h3>
 
