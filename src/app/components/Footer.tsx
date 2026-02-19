@@ -85,7 +85,7 @@ export default function Footer() {
             <h4 className="text-xl font-semibold">Quick Links</h4>
             <ul className="mt-3 md:mt-6 space-y-1 md:space-y-5 text-white text-[14px] xl:text-[16px]">
               {/* <li><a className="hover:text-white transition" href="#home">Home</a></li> */}
-              <li><a className="hover:text-white transition" href="#story">The profile</a></li>
+              <li><a className="hover:text-white transition" href="#story">The Profile</a></li>
               <li><a className="hover:text-white transition" href="#portfolio">The Portfolio</a></li>
               <li><a className="hover:text-white transition" href="#philosophy">The Philosophy</a></li>
               <li><a className="hover:text-white transition" href="#playback">The Digital Playback</a></li>
@@ -99,9 +99,11 @@ export default function Footer() {
             <ul className="mt-3 md:mt-6 space-y-1 md:space-y-5 text-white text-[14px] xl:text-[16px]">
               <li><a className="hover:text-white transition" href="https://www.thedigitalescapes.com/">Digital Escapes</a></li>
               <li><a className="hover:text-white transition" href="https://www.xtreamdigital.com/">XtreamDigital</a></li>
-              <li><a className="hover:text-white transition" href="#portfolio">Travel My Sri Lanka</a></li>
               <li><a className="hover:text-white transition" href="https://www.marketmykeys.com/">Market My Keys</a></li>
+              <li><a className="hover:text-white transition" href="https://www.srilankahotelmagazine.com/">Sri Lanka Hotel Magazine</a></li>
+              <li><a className="hover:text-white transition" href="#portfolio">Travel My Sri Lanka</a></li>           
               <li><a className="hover:text-white transition" href="https://www.zinkq.com/">Zinkq Community</a></li>
+              <li><a className="hover:text-white transition" href="https://www.startupuncut.com/">Startup Uncut</a></li>
               <li><a className="hover:text-white transition" href="https://www.sceneryvillassrilanka.com/">Scenery Villas</a></li>
             </ul>
           </div>
