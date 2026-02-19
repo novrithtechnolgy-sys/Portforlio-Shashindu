@@ -108,28 +108,11 @@ export default function Footer() {
         </div>
 
         {/* Bottom copyright */}
-        <div className="mt-16 border-t border-white/10 pt-6">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-3 text-[12px] text-white/60">
-
+        <div className="mt-16 font-[helvetica] text-[12px] text-white/60">
             {/* left */}
             <p className="text-center md:text-left">
               © {new Date().getFullYear()} Shashindu De Silva. All rights reserved.
             </p>
-
-            {/* right */}
-            <p className="text-center md:text-right">
-              Concept by <span className="text-white">Shashindu De Silva</span>  
-              <span className="mx-2 text-white/30">|</span>  
-              Crafted & Developed by{" "}
-              <a
-                href="https://www.novrithtechnology.com"
-                target="_blank"
-                className="font-semibold text-white hover:text-white/70 transition"
-              >
-                Novrith Technology
-              </a>
-            </p>
-          </div>
         </div>
       </Container>
     </footer>
