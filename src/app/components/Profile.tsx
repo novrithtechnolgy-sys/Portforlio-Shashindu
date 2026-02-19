@@ -15,7 +15,7 @@ export default function Profile() {
           <div className="relative grid items-center md:grid-cols-[310px_1fr] xl:grid-cols-[410px_1fr] md:p-0">
             <div className="relative mx-auto h-[360px] w-full max-w-[1220px] md:mx-0 md:h-[620px] order-2 md:order-1">
               <Image
-                src="https://res.cloudinary.com/dpjmcup95/image/upload/a_hflip/v1771036654/b68a51bf9e1267c1a11561ff60b71178a3b002b4_2_pseobk.webp"
+                src="https://res.cloudinary.com/dpjmcup95/image/upload/v1771477391/Untitled_design_1_zzqqjt.webp"
                 alt="Profile"
                 fill
                 priority
